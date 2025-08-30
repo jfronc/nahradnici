@@ -1,0 +1,33 @@
+---
+title: "Evropský parlament 2024"
+format: html
+---
+
+```{r setup, echo = FALSE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, results = "asis")
+library(gt)
+
+source("../scripts/ep_csu.R")
+```
+
+::: {.panel-tabset}
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, results = 'asis'}
+
+for (i in seq_along(ppl)) {
+  cat("##", names(ppl)[i], "\n\n")  # new tab title
+  
+  ppl[[i]] |>
+    gt() |>
+    cols_label(
+      JMENO = "First Name",
+      PRIJMENI = "Last Name",
+      VEK = "Věk"
+    ) |>
+    tab_options(table.width = pct(100)) |> 
+    print()
+  
+  cat("\n")
+}
+```
+:::

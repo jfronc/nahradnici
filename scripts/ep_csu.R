@@ -1,9 +1,7 @@
 xfun::pkg_attach("tidyverse", "magrittr", "xml2")
 
-ns <- c(ns = "http://www.volby.cz/ep/")
-
-xml <- "https://www.volby.cz/opendata/ep2024/xml/eprk.xml"
-doc <- read_xml(xml) |> xml_ns_strip()
+eprk <- read_xml("https://www.volby.cz/opendata/ep2024/xml/eprk.xml") |> xml_ns_strip()
+vysledky <- read_xml("https://www.volby.cz/pls/ep2024/vysledky") |> xml_ns_strip()
 
 # Helper to extract text of child elements as columns within namespace
 extract_fields <- function(node, fields) {
@@ -29,9 +27,32 @@ partylist <- function(party, doc) {
     return()
 }
 
-# partylist(17, doc)
+# partylist(17, eprk)
 
-parties <- xml_find_all(doc, ".//EP_REGKAND_ROW[MANDAT='A']") %>%
+parties <- xml_find_all(eprk, ".//EP_REGKAND_ROW[MANDAT='A']") %>%
   xml_find_all(".//ESTRANA") %>%
   xml_text() %>%
   unique()
+
+parties <- xml_find_all(vysledky, ".//STRANA") %>%
+  map_df(~ {
+    if (length(xml_find_all(.x, ".//POSLANEC")) > 0) {
+      tibble(
+        ESTRANA = xml_attr(.x, "ESTRANA"),
+        NAZ_STR = xml_attr(.x, "NAZ_STR"),
+        HLASY   = as.integer(xml_attr(xml_find_first(.x, ".//HLASY_STRANA"), "HLASY"))
+      )
+    } else {
+      NULL
+    }
+  }) %>%
+  arrange(desc(HLASY))
+
+ppl <- map(set_names(parties$ESTRANA, parties$NAZ_STR),
+                  ~partylist(.x, eprk))
+
+ppl |> map(~mutate(.x,
+  FROM = ifelse(!is.na(PORADIMAND), as.Date("2024-07-15"), NA)
+  ))
+
+

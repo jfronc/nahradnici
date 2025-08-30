@@ -1,10 +1,11 @@
 ---
-title: "nahradnici2"
+title: "Náhradníci"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**Motivace:**
+* [Úprk europoslanců do Sněmovny? Turkův náhradník Šlachta do Bruselu nechce](https://www.novinky.cz/clanek/domaci-uprk-europoslancu-do-snemovny-turkuv-nahradnik-slachta-do-bruselu-nechce-40499280) *Novinky*, 1. 12. 2024
+* [Odchod Konečné a Turka do Sněmovny? Riziko pro komunisty i Motoristy v EU](https://www.seznamzpravy.cz/clanek/volby-do-poslanecke-snemovny-odchod-konecne-a-turka-do-snemovny-riziko-pro-komunisty-i-motoristy-v-eu-273757) *Seznam Zprávy*, 10. 4. 2025
+* 
 
 ```{r}
 1 + 1
