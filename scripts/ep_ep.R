@@ -1,4 +1,4 @@
-xfun::pkg_attach("httr2", "jsonlite", "tidyverse", "magrittr")
+xfun::pkg_attach("httr2", "tidyverse", "magrittr")
 
 # helper to fetch meps by status (incoming/outgoing)
 fetch_meps <- function(status = c("incoming", "outgoing")) {
@@ -25,24 +25,23 @@ meps <- bind_rows(
 )
 
 mep_profile <- function(id) {
-  profile <- paste0("https://data.europarl.europa.eu/api/v2/meps/", id,
-    "?format=application%2Fld%2Bjson") |>
+  attr <- paste0("https://data.europarl.europa.eu/api/v2/meps/", id,
+                 "?format=application%2Frdf%2Bxml") |>
     request() |> req_perform() |> resp_body_string() |>
-    fromJSON(flatten = TRUE)
+    read_xml() |>
+    xml_find_all(".//org:hasMembership[
+                 .//org:organization[@rdf:resource='https://data.europarl.europa.eu/org/ep-10'] and
+                 .//org:role[@rdf:resource='https://data.europarl.europa.eu/def/ep-roles/MEMBER']
+               ]//org:memberDuring") |>
+    xml_attr("resource")
   
-  profile %<>%
-    tibble(
-      id        = profile$identifier,
-      name      = profile$label,
-      startDate = map_chr(profile$hasMembership, ~ .x$memberDuring$startDate %||% NA),
-      endDate   = map_chr(profile$hasMembership, ~ .x$memberDuring$endDate   %||% NA),
-      organization      = map_chr(profile$hasMembership, ~ .x$organization %||% NA)
-    ) %>%
-    unnest(c(startDate, endDate, organization)) %>%
-    filter(organization == "org/ep-10") %>%
-    select(id, name, startDate, endDate)
+  profile <- tibble(
+      id        = id,
+      startDate = str_extract(attr, "\\d{8}(?=-)") %>% lubridate::as_date(),
+      endDate   = str_extract(attr, "\\d{8}$") %>% lubridate::as_date()
+    )
   
   return(profile)
 }
 
-mep_profile(261038)
+mep_profile(197526)
