@@ -1,0 +1,234 @@
+1|bez usnesení|
+2|doporuèen|
+3|doruèen|
+4|doruèeno|
+5|neèinná|
+6|neèinný|
+7|nepodepsal|
+8|nepøijat|
+9|nepøítomen|
+10|nesouhlas|
+11|nezabýval se|
+12|odeslán|
+13|podepsal|
+14|postoupen|
+15|pozm. pøijat|
+16|pøedložen|
+17|pøerušeno|
+18|pøikázán|
+19|rozeslán|
+20|setrváno|
+21|schválen|
+22|souhlas|
+23|ukonèena|
+24|vrácen|
+25|vyhlášena|
+26|vzat zpìt|
+27|zamítnut|
+28|zamítnuto|
+29|zaøadil|
+30|zasláno|
+31|odroèeno|
+32|opakovat|
+33|schváleno|
+34|zamítnuto|
+35|vzato na vìdomí|
+36|projednáno bez usnesení|
+37|nezabývala se|
+38|vráceno k pøepracování|
+39|staženo|
+40|souhlas s RJ|
+41|nesouhlas s RJ|
+42|vráceno k projednání do výboru|
+43|revokace usnesení|
+44|pøerušeno do projednání|
+45|neschválen|
+46|neschválena|
+47|zmìna lhùty|
+48|staženo a odroèeno|
+49|nesouhlas se zákonem|
+50|vzat zpìt pøed projednáním|
+51|usnesení výboru|
+52|projednat|
+53|nezabývat se|
+54|stanovisko vlády|
+55|postoupit pøedsedovi|
+56|schváleno s doporuèením|
+57|rozdáno poslancùm|
+58|bere na vìdomí, žádost o inf.|
+59|zmìna lhùty pozmò. návrhu|
+60|ukonèena, návrh na zamítnutí|
+61|není pozmìò. návrh|
+62|konstatuje projednání v Radì|
+63|bere na vìdomí|
+64|nezaujala stanovisko|
+65|postoupit k projednání výboru|
+66|postoupit k projednání snìmovnou|
+67|projednáno s usnesením|
+68|opravená verze|
+69|neschváleno zkrácení lhùty|
+70|žádá vládu o další informace|
+71|projednávání ukonèeno|
+72|vráceno k projednání výborùm, zmìna lhùty|
+73|pozmìòovací návrh|
+74|bere bez projednávání na vìdomí|
+75|chyba v schvalenem zneni|
+76|nahrazeno novou verzi|
+77|pøedèasnì projednávání výborem|
+78|nastaven garanèní výbor|
+79|garanèní výbor urèen PS|
+80|zmìna jednacího øádu|
+81|garanèní výbor nebude projednávat|
+82|nepøihlédnuto k námitce|
+83|námitka proti projednávání|
+84|vráceno garanènímu výboru k novému projednání|
+85|zaèátek pro zkrácení lhùty PN|
+86|není pozm. návrh, GV nebude projednávat|
+87|neèinný, uplynulo 30 dnù od doruèení pozm. návrhu|
+88|zmìna zpravodaje rozhodnutím pøedsedy PS|
+89|zmìna zpravodaje rozhodnutím ORGV|
+90|neprojednatelné: zánik mandátu|
+91|bere na vìdomí stanovisko vlády|
+92|dokument|
+93|ukonèeno leg. odborem|
+94|nezaøazeno|
+95|(ukonèeno)|
+96|zmìna zpravodaje|
+97|vynechána|
+98|vydano|
+100|Pøedloženo|
+101|Upuštìno od zásad|
+102|Upuštìno od zásad 2|
+103|Lhùta zkrácena|
+104|Lhùta zkrácena 2|
+105|Rozdáno|
+106|Do vlády|
+107|Stanovisko vlády|
+108|Schùzka zpravodajù|
+109|Zaøadit od|
+110|Pøedloženo|
+111|Rozdáno|
+112|Do vlády|
+113|Stanovisko vlády|
+114|Projednáno v organizaèním výbo|
+115|Stanovisko organizaèního výbor|
+116|Odesláno autorovi|
+117|Návrh zákona èíslo ...|
+118|Pøedáno KPR|
+119|Vráceno KPR|
+120|Pøedáno UVÈR|
+121|Vráceno UVÈR|
+122|Stanovisko vlády|
+123|Schváleno (v dBase není datum)|
+124|Neschváleno (v dBase není datu|
+125|Návrh vzat zpìt (v dBase není|
+126|Zásady neupuštìny (v dBase nen|
+127|Pøedloženo|
+128|Rozdáno, pøikázáno|
+129|Zkrácená 60-ti denní lhùta|
+130|Zaøazeno|
+131|Schváleno|
+132|Neschváleno|
+133|Odesláno do vlády|
+134|Podáno dne|
+135|Odpovìï|
+136|Projednáno s výsledkem - nevyp|
+137|Projednáno s výsledkem Souhlas|
+138|Projednáno s výsledkem Nesouhl|
+139|Projednáno s výsledkem Bere na|
+140|Projednáno s výsledkem Bez usn|
+141|Projednáno s výsledkem pøeruše|
+142|Pøedloženo|
+143|Rozdáno|
+144|Schváleno|
+145|Neschváleno|
+146|Schvaleno zkr. lhuty|
+147|Neschvaleno zkr. lhuty|
+148|Puvodne tisk CNR|
+149|Oprava tisku|
+150|Spolecna zprava|
+151|Upusteno od zasad|
+152|Lhuta zkracena|
+153|Zamitnuto zkr. lhuty|
+154|Lhuta znovu zkracena|
+155|Zamitnuto opretovne zkr. lhuty|
+156|Sbirka zakonu|
+157|Zasady|
+158|Projednano upusteni od zasad|
+159|Projednano|
+160|Nova spolecna zprava|
+161|vyhlášení leg. nouze|
+162|potvrzení leg. nouze|
+163|posouzení leg. nouze|
+164|zamítnuto - ústavní zákon|
+165|projednáno|
+166|rozdána pøepracovaná verze|
+167|Prezident nepodepsal|
+168|Snìmovna neschválila|
+170|bere na vìdomí s doporuèením|
+171|podporuje pozici vlády ÈR|
+172|žádá vládu, aby vìnovala problematice zvýšenou pozornost|
+173|bere na vìdomí a souhlasí s rámcovou pozicí vlády (k tomuto dokumentu)|
+174|pøerušuje projednávání|
+175|žádá vládu, aby nepodpoøila návrh této smìrnice|
+176|schvaluje rámcovou pozici a žádá vládu, aby ho informovala o dalším projednávání tohoto dokumentu|
+177|bere na vìdomí a žádá vládu, aby dùslednì hájila svou pozici|
+178|žádá vládu, aby trvala na doplnìní analýzy dopadù o návrhy konkrétních opatøení pro jednotlivé èlenské státy a doporuèuje vládì vycházet ze stávajících dokumentù OECD|
+179|se rozhodl uspoøádat semináø|
+180|shledává naøízení sporným z hlediska principu subsidiarity|
+181|dospìl k závìru, že navrhovaný právní akt pøekraèuje rámec pravomocí Evropských spoleèenství|
+182|bere na vìdomí rámcovou pozici vlády ÈR k tomuto dokumentu|
+183|bere na vìdomí rámcovou pozici vlády ÈR k tomuto dokumentu a žádá vládu o další informace|
+184|bere na vìdomí rámcovou pozici vlády ÈR k tomuto dokumentu a podporuje pozici vlády ÈR|
+185|žádá vládu, aby jej seznámila s odpovìïmi Èeské republiky na otázky položené v Zelené knize a aby jej prùbìžnì informovala o dalším prùbìhu projednávání tohoto dokumentu|
+186|vyslovuje souhlas s názorem Komise, že koncové ceny mezinárodního roamingu pro mobilní komunikace je tøeba snížit, upozoròuje však, že navržený zpùsob regulace by mohl omezit konkurenèní prostøedí na telekomunikaèním trhu a je v rozporu se zásadou pøimìøenosti|
+187|pøerušuje projednávání tohoto dokumentu|
+188|žádá vládu, aby stanovila priority Èeské republiky v rámci pøedloženého Legislativního a pracovního programu Komise|
+189|žádá vládu, aby trvala na zaøazení spalování komunálního odpadu ve spalovnách mezi zpùsoby odstraòování odpadù s poukazem na to, že zaøazení mezi zpùsoby využití by ohrozilo velmi dùležité zájmy ÈR v oblasti životního prostøedí|
+190|je pøesvìdèen o zvýšené potøebì transparentnosti, která by mìla pøípadné prohlubování bezpeènostní politiky na evropské úrovni doprovázet. Proto VEZ žádá vládu o pøedložení zpracovaných odpovìdí na otázky Zelené knihy o detekèních technologiích.|
+191|staženo z poøadu schùze|
+192|ORGV nedoporucil PS projednani|
+193|nesouhlasí s pozicí vlády|
+194|bere na vìdomí a  nesouhlasí s pozicí vlády|
+195|nové znìní pozmn. návrhù|
+196|zmìna zpravodaje rozhodnutím pøedsedy|
+197|projednáno garanèním výborem|
+198|postoupeno výboru k informaci|
+199|usnesení s požadavkem|
+200|obdržen dokument|
+201|kontrola usnesení|
+202|normální usnesení|
+203|vyžadující souhlas obou komor|
+204|požadavek na RJ vzat zpìt|
+205|nevysloven souhlas|
+206|vzato na vìdomí bez projednání, postoupeno výboru|
+207|projednat, postoupit výboru pro informaci|
+208|pøedbìžné projednávání|
+209|(nepoužito)|
+210|pozm. návrhy, nerozeslány jako snìmovní tisk|
+211|rozhodl o projednávání ve zkráceném jednání|
+212|nebude projednáváno v zkráceném jednání|
+213|neschváleno projednávání v zkráceném jednání|
+214|nedosaženo kvora pro hlasování - pøerušeno|
+215|neschváleno pokraèování legislativní nouze|
+216|dokument leg. odboru|
+217|pozm. návrhy, netištìno|
+218|uplynulo trvání legislativní nouze|
+219|doporuèuje zaøadit bez projednání ve výboru|
+220|podklad k projednání PS dle par. 1, odst. 2|
+221|pøikázán, doporuèil projednání v PS|
+222|ORGV doporuèil projednání v PS|
+223|žádost o zaøazení do schùze PS (vìcný výbor)|
+224|žádost o zaøazení do schùze PS (výbor)|
+225|žádost o zaøazení do schùze PS (menšina výboru v oponentní zprávì)|
+226|žádost o zaøazení do schùze PS (klub)|
+227|žádost o zaøazení do nejbližší schùze PS (klub)|
+228|usnesení výboru je rozhodnutím Snìmovny|
+229|neèinný, zaøazeno bez projednání ve výboru|
+230|projednáno ve vìcnì pøíslušném výboru|
+231|upuštìno od obecné rozpravy|
+232|pøedèasné projednání výborem|
+233|pøerušeno uplynutím èasu pro odpovìdi na písemné interpelace|
+234|pøerušeno (pevné datum)|
+235|odroèeno (pevné datum)|
+236|zmìna zpravodaje pouze pro 1. ètení|

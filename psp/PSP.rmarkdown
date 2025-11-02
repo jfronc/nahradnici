@@ -1,0 +1,69 @@
+---
+title: "PSP"
+format: html
+---
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, results = 'asis'}
+xfun::pkg_attach("dplyr", "reactable", "crosstalk")
+
+candidates <- readRDS("../psp/data/candidates.rds")
+
+# Create shared data object for Crosstalk filters
+shared_candidates <- SharedData$new(candidates)
+
+# Create linked filters
+region_filter <- filter_select(
+  id = "region",
+  label = "Volební kraj",
+  shared_candidates,
+  group = ~VOLKRAJ,
+  multiple = FALSE
+)
+
+party_filter <- filter_select(
+  id = "party",
+  label = "Volební strana",
+  shared_candidates,
+  group = ~NAZ_STR,
+  multiple = FALSE
+)
+
+# Create interactive reactable table
+candidate_table <- reactable(
+  shared_candidates,
+  columns = list(
+    JMENO = colDef(name = "Jméno"),
+    PRIJMENI = colDef(name = "Příjmení"),
+    VEK = colDef(name = "Věk"),
+    PORADIMAND = colDef(name = "Pořadí"),
+    since = colDef(name = "Od"),
+    PORADINAHR = colDef(show = FALSE),
+    VOLKRAJ = colDef(show = FALSE),
+    KSTRANA = colDef(show = FALSE),
+    NAZ_STR = colDef(show = FALSE),
+    state = colDef(show = FALSE)
+  ),
+  pagination = FALSE,
+  highlight = TRUE,
+  striped = TRUE,
+  bordered = TRUE,
+  rowStyle = JS("
+    function(rowInfo) {
+      if (rowInfo.row.PORADIMAND > 0) {
+        return { backgroundColor: '#e8f5e9' }  // light green for elected candidates
+      } else {
+        return {}
+      }
+    }")
+)
+
+# Arrange filters above the table
+htmltools::tagList(
+  htmltools::h3("Kandidátky podle kraje a strany"),
+  region_filter,
+  party_filter,
+  candidate_table
+)
+
+```
+

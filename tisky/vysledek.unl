@@ -1,0 +1,93 @@
+1|schvaluje|
+2|pozmìòovací návrhy|
+3|záznam jednání|
+4|komplexní pozmnìòovací návrh|
+5|doporuèuje schválit|
+6|bere na vìdomí|
+7|pøerušuje projednávání|
+8|bere na vìdomí, doplòující usnesení|
+9|doporuèuje schválit, doplòující usnesení|
+10|doporuèuje zamítnout|
+11|doporuèuje PS pøerušit projednávání|
+12|doporuèuje vzít na vìdomí|
+13|návrh doplòujícího usnesení|
+14|návrh procedurálního usnesení|
+15|nezabýval se|
+16|doporuèuje projednávání|
+17|nesouhlas|
+18|pøipomínky|
+19|souhlas|
+20|doporuèuje nezahajovat projednávání|
+21|doporuèuje neschválit|
+22|neutrální|
+23|bez stanoviska|
+24|projednal|
+25|ruší usnesení|
+26|revokuje usnesení|
+27|doporuèuje vzít zpìt|
+28|stanovisko|
+29|procedurální usnesení|
+30|odùvodnìné stanovisko|
+31|vrátit pøedkladateli|
+101|schvaluje|
+102|zamítá|
+103|vrací pøedkladateli|
+104|bere na vìdomí|
+105|pøerušuje projednávání|
+106|procedurální usnesení|
+107|revokace usnesení|
+108|vráceno do 2. ètení|
+109|odroèeno|
+110|pøikázáno k projednání|
+111|zmìna zpravodaje|
+112|setrváno|
+301|Projednávání návrhu zákona v 1. ètení bylo odroèeno.|
+302|Projednávání návrhu zákona v 1. ètení bylo pøerušeno.|
+303|Návrh zákona pøikázán k projednání výborùm.|
+304|Návrh zákona vrácen pøedkladateli.|
+305|Návrh zákona vzat zpìt.|
+306|Návrh zákona zamítnut.|
+307|Lhùta k projednávání výbory zmìnìna.|
+308|Poslanecká snìmovna nesouhlasila s projednáváním návrhu zákona tak, aby mohl být projednán již v prvém ètení.|
+309|Projednávání návrhu zákona v 1. ètení bylo odroèeno.|
+310|Projednávání návrhu zákona v 1. ètení bylo pøerušeno.|
+311|Poslanecká snìmovna souhlasila s projednáváním návrhu zákona tak, aby mohl být projednán již v prvém ètení.|
+312|Návrh zákona vzat zpìt.|
+313|Návrh zákona nebyl pøijat.|
+314|Projednávání návrhu zákona v 1. ètení bylo odroèeno.|
+315|Návrh zákona byl schválen.|
+316|Návrh zákona byl vrácen pøedkladateli.|
+317|Návrh zákona projednán v obecné rozpravì 2. ètení.|
+318|Návrh zákona projednán v obecné rozpravì 2. ètení, podán návrh na zamítnutí.|
+319|Návrh zákona vzat zpìt.|
+320|Návrh zákona vrácen k novému projednání garanènímu výboru.|
+321|Návrh zákona projednán v podrobné rozpravì 2. ètení.|
+322|Návrh zákona projednán v podrobné rozpravì 2. ètení, podán návrh na zamítnutí|
+323|Návrh zákona vrácen k novému projednání výbory.|
+324|Návrh zákona vzat zpìt.|
+325|Návrh zákona zamítnut.|
+326|Návrh zákona nebyl pøijat.|
+327|Projednávání návrhu zákona bylo odroèeno.|
+328|Návrh zákona byl vrácen do obecné rozpravy 2. ètení.|
+329|Projednávání návrhu zákona bylo pøerušeno.|
+330|Poslanecká snìmovna návrh zákona schválila.|
+331|Poslanecká snìmovna souhlasila se zpìtvzetím návrhu zákona.|
+332|Poslanecká snìmovna návrh zákona zamítla.|
+333|Poslanecká snìmovna neschválila projednávání návrhu zákona ve zkráceném jednání.|
+334|Poslanecká snìmovna neschválila pokraèování v projednávání návrhu zákona ve zkráceném jednání.|
+335|Projednávání návrhu zákona bylo pøerušeno.|
+336|Trvání stavu legislativní nouze uplynulo.|
+337|Návrh zákona vzat zpìt.|
+338|Návrh zákona byl zamítnut.|
+339|Organizaèní výbor projednávání snìmovního tisku doporuèil.|
+340|Návrh zákona vzat zpìt.|
+341|Pøedseda Poslanecké snìmovny rozhodl o zaøazení snìmovního tisku, urèil zpravodaje a navrhl pøikázat tisk k projednáním výborùm.|
+342|Stanovisko prezidenta doruèeno poslancùm.|
+343|Poslanecká snìmovna návrh zákona nepøijala.|
+344|Poslanecká snìmovna setrvala na pùvodním návrhu zákona.|
+345|Stanovisko Senátu doruèeno poslancùm.|
+346|Poslanecká snìmovna návrh zákona nepøijala.|
+347|Poslanecká snìmovna pøijala návrh zákona ve znìní pozmìòovacích návrhù Senátu.|
+348|Poslanecká snìmovna setrvala na pùvodním návrhu zákona.|
+349|K návrhu zákona nebyly podány pozmìòovací nebo jiné návrhy.|
+350|Pozmìòovací a jiné návrhy rozeslány poslancùm.|

@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nahradnici.jfronc.cz/web/ep.html</loc>
-    <lastmod>2025-08-30T19:52:47.154Z</lastmod>
+    <lastmod>2025-08-30T20:16:24.549Z</lastmod>
   </url>
   <url>
     <loc>https://nahradnici.jfronc.cz/about.html</loc>
     <lastmod>2025-08-28T18:17:57.129Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nahradnici.jfronc.cz/psp/PSP.html</loc>
+    <lastmod>2025-11-02T19:44:34.877Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nahradnici.jfronc.cz/index.html</loc>
+    <lastmod>2025-08-30T20:16:27.381Z</lastmod>
   </url>
 </urlset>
