@@ -11,9 +11,9 @@ fetch_meps <- function(status = c("incoming", "outgoing")) {
   resp <- request(url) |> req_perform() |> resp_body_json()
   
   tibble(
-    id         = map_chr(resp$data, "identifier"),
-    givenName  = map_chr(resp$data, "givenName"),
-    familyName = map_chr(resp$data, "familyName"),
+    ID         = map_chr(resp$data, "identifier"),
+    JMENO  = map_chr(resp$data, "givenName"),
+    PRIJMENI = map_chr(resp$data, "familyName"),
     status     = status
   )
 }
@@ -36,12 +36,20 @@ mep_profile <- function(id) {
     xml_attr("resource")
   
   profile <- tibble(
-      id        = id,
-      startDate = str_extract(attr, "\\d{8}(?=-)") %>% lubridate::as_date(),
-      endDate   = str_extract(attr, "\\d{8}$") %>% lubridate::as_date()
+      ID        = id,
+      FROM = str_extract(attr, "\\d{8}(?=-)") %>% lubridate::as_date(),
+      TO   = str_extract(attr, "\\d{8}$") %>% lubridate::as_date()
     )
   
   return(profile)
 }
 
-mep_profile(197526)
+# mep_profile(197526)
+
+meps |>
+  left_join(
+        map_dfr(meps$ID, mep_profile),
+        by = "ID"
+     ) |>
+  map(~right_join(.x, ppl, by = "PRIJMENI"))
+            

@@ -51,8 +51,9 @@ parties <- xml_find_all(vysledky, ".//STRANA") %>%
 ppl <- map(set_names(parties$ESTRANA, parties$NAZ_STR),
                   ~partylist(.x, eprk))
 
-ppl |> map(~mutate(.x,
-  FROM = ifelse(!is.na(PORADIMAND), as.Date("2024-07-15"), NA)
+ppl %<>% map(~mutate(.x,
+  FROM = ifelse(!is.na(PORADIMAND), as.Date("2024-07-15"), NA),
+  TO = NA
   ))
 
 

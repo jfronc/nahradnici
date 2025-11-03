@@ -1,6 +1,8 @@
 ---
 title: "PSP"
-format: html
+format:
+  html:
+    page-layout: full
 ---
 
 ```{r echo = FALSE, warning = FALSE, message = FALSE, results = 'asis'}
@@ -16,7 +18,7 @@ region_filter <- filter_select(
   id = "region",
   label = "Volební kraj",
   shared_candidates,
-  group = ~VOLKRAJ,
+  group = ~NAZVOLKRAJ,
   multiple = FALSE
 )
 
@@ -37,8 +39,10 @@ candidate_table <- reactable(
     VEK = colDef(name = "Věk"),
     PORADIMAND = colDef(name = "Pořadí"),
     since = colDef(name = "Od"),
+    until = colDef(name = "Do"),
     PORADINAHR = colDef(show = FALSE),
     VOLKRAJ = colDef(show = FALSE),
+    NAZVOLKRAJ = colDef(show = FALSE),
     KSTRANA = colDef(show = FALSE),
     NAZ_STR = colDef(show = FALSE),
     state = colDef(show = FALSE)
@@ -47,14 +51,16 @@ candidate_table <- reactable(
   highlight = TRUE,
   striped = TRUE,
   bordered = TRUE,
+  compact = TRUE,
   rowStyle = JS("
     function(rowInfo) {
-      if (rowInfo.row.PORADIMAND > 0) {
+      if (rowInfo.row.state == 11) {
         return { backgroundColor: '#e8f5e9' }  // light green for elected candidates
       } else {
         return {}
       }
-    }")
+    }
+  ")
 )
 
 # Arrange filters above the table

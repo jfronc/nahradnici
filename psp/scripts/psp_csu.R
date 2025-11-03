@@ -2,6 +2,13 @@ xfun::pkg_attach("tidyverse", "magrittr", "xml2")
 
 psrk <- read_xml("https://www.volby.cz/opendata/ps2025/xml/psrk.xml") |> xml_ns_strip()
 vysledky <- read_xml("https://www.volby.cz/appdata/ps2025/odata/vysledky.xml") |> xml_ns_strip()
+psvolkr <- read_xml("https://www.volby.cz/opendata/ps2025/xml/psvolkr.xml") |> xml_ns_strip()
+
+saveRDS(psrk, here::here("psp/data/psrk.rds"))
+saveRDS(vysledky, here::here("psp/data/vysledky.rds"))
+saveRDS(psvolkr, here::here("psp/data/psvolkr.rds"))
+psrk <- (here::here("psp/data/psrk.rds"))
+vysledky <- readRDS(here::here("psp/data/vysledky.rds"))
 
 # Helper to extract text of child elements as columns within namespace
 extract_fields <- function(node, fields) {
@@ -39,13 +46,18 @@ get_votes <- function (doc) {
   }
 }
 
-
 parties <- xml_find_all(vysledky, ".//CR/STRANA") %>%
   map(get_votes) %>%
   list_rbind() %>%
   arrange(desc(HLASY))
 
-
+fields_k <- c("VOLKRAJ", "NAZVOLKRAJ")
+kraje <- xml_find_all(psvolkr, ".//PS_VOLKRAJ_ROW") %>%
+  map_df( ~ set_names(extract_fields(.x, fields_k), fields_k)) %>% 
+  mutate(
+    VOLKRAJ = as.integer(VOLKRAJ)
+  )
+  
 grid <- expand_grid(
   KSTRANA = parties$KSTRANA,
   VOLKRAJ = 1:14
@@ -58,6 +70,13 @@ ppl <- map2(
   .progress = TRUE
   ) %>% list_rbind()
 
-ppl %<>% left_join(select(parties, KSTRANA, NAZ_STR))
+ppl %<>% left_join(select(parties, KSTRANA, NAZ_STR)) %>%
+  left_join(kraje)
+
+if (nrow(filter(ppl, !is.na(PORADIMAND))) != 200) {
+  stop("PORADIMAND != 200")
+  }
 
 saveRDS(ppl, here::here("psp/data/ppl.rds"))
+
+
