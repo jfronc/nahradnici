@@ -17,14 +17,6 @@ read_psp <- function (file) {
   return(df)
 }
 
-pohlavi <- function (surname) {
-  if (grepl("(ová|á$)", surname)) {
-    return("Ž")
-  } else {
-    return("M")
-  }  
-}
-
 poslanec <- read_psp("psp/data/poslanci/poslanec.unl") # parsing issue refers to phone no.
 colnames(poslanec) <- c('mp_id', 'id', 'region_id', 'list_id', 'org_id', 'web', 'street', 'municipality', 'postcode', 'email','phone', 'fax', 'psp_phone', 'facebook', 'photo')
 
@@ -71,22 +63,4 @@ if (nrow(filter(ppl, state == 11)) + nrow(filter(ppl, state == 12)) != 200) {
 filter(ppl, state == 12)
 
 saveRDS(ppl, here::here("psp/data/candidates.rds"))
-
-pctg <- scales::label_percent(
-  suffix = " %"
-)
-
-nahradnici <- filter(ppl, state == 21) %>%
-  mutate(
-    pohlavi = pohlavi(PRIJMENI)
-  )
-
-nahradnici %>%
-  group_by(NAZ_STR) %>%
-  summarise(
-    total_weight = sum(weight),
-    pct_female = pctg(sum(weight[pohlavi == "Ž"]) / total_weight),
-    pct_male   = pctg(sum(weight[pohlavi == "M"]) / total_weight),
-    .groups = "drop"
-  )
 

@@ -1,0 +1,36 @@
+---
+title: "Statistiky"
+format: html
+---
+
+```{r echo = FALSE, warning = FALSE, message = FALSE, results = 'asis'}
+xfun::pkg_attach("dplyr")
+
+candidates <- readRDS("../psp/data/candidates.rds") |>
+  select(JMENO, PRIJMENI, since, until, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, state)
+
+pohlavi <- function (surname) {
+  if (grepl("(ová|á$)", surname)) {
+    return("Ž")
+  } else {
+    return("M")
+  }  
+}
+
+pctg <- scales::label_percent(
+  suffix = " %"
+)
+
+nahradnici %>%
+  mutate(
+    pohlavi = pohlavi(PRIJMENI)
+  ) %>%
+  group_by(NAZ_STR) %>%
+  summarise(
+    total_weight = sum(weight),
+    pct_female = pctg(sum(weight[pohlavi == "Ž"]) / total_weight),
+    pct_male   = pctg(sum(weight[pohlavi == "M"]) / total_weight),
+    .groups = "drop"
+  )
+
+```
