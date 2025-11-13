@@ -4,11 +4,13 @@ psrk <- read_xml("https://www.volby.cz/opendata/ps2025/xml/psrk.xml") |> xml_ns_
 vysledky <- read_xml("https://www.volby.cz/appdata/ps2025/odata/vysledky.xml") |> xml_ns_strip()
 psvolkr <- read_xml("https://www.volby.cz/opendata/ps2025/xml/psvolkr.xml") |> xml_ns_strip()
 
-saveRDS(psrk, here::here("psp/data/psrk.rds"))
-saveRDS(vysledky, here::here("psp/data/vysledky.rds"))
-saveRDS(psvolkr, here::here("psp/data/psvolkr.rds"))
-psrk <- (here::here("psp/data/psrk.rds"))
-vysledky <- readRDS(here::here("psp/data/vysledky.rds"))
+saveRDS(as.character(psrk), here::here("psp/data/psrk.rds"))
+saveRDS(as.character(vysledky), here::here("psp/data/vysledky.rds"))
+saveRDS(as.character(psvolkr), here::here("psp/data/psvolkr.rds"))
+
+psrk <- readRDS(here::here("psp/data/psrk.rds")) |> read_xml()
+vysledky <- readRDS(here::here("psp/data/vysledky.rds")) |> read_xml()
+psvolkr <- readRDS("psp/data/psvolkr.rds") |> read_xml()
 
 # Helper to extract text of child elements as columns within namespace
 extract_fields <- function(node, fields) {
@@ -19,11 +21,14 @@ partylist <- function(party, kraj, doc) {
   rows <- doc |>
     xml_find_all(paste0("PS_REGKAND_ROW[KSTRANA='", party, "' and VOLKRAJ='", kraj, "']"))
   
-  fields <- c("JMENO", "PRIJMENI", "VEK", "PORADIMAND", "PORADINAHR")
+  fields <- c("JMENO", "PRIJMENI", "VEK", "POVOLANI", "PSTRANA", "NSTRANA", "PORADIMAND", "PORADINAHR", "POCPROC")
   
   map_df(rows, ~ set_names(extract_fields(.x, fields), fields)) %>%
     mutate(
       VEK = as.integer(VEK), # věk ke druhému dni voleb
+      PSTRANA = as.integer(PSTRANA),
+      NSTRANA = as.integer(NSTRANA),
+      POCPROC = as.double(POCPROC),
       PORADINAHR = as.integer(PORADINAHR) %>% na_if(0),
       PORADIMAND = as.integer(PORADIMAND) %>% na_if(0),
       KSTRANA = party,

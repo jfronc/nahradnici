@@ -2,8 +2,9 @@
 title: "About"
 ---
 
-About this site
+**Zdroje dat**
 
-```{r}
-1 + 1
-```
+* [https://www.volby.cz/opendata/ps2025/ps2025_opendata.htm](Volby.cz)
+
+* [https://www.psp.cz/sqw/hp.sqw?k=1300](PSP ČR)
+

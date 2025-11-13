@@ -8,7 +8,14 @@ format:
 ```{r echo = FALSE, warning = FALSE, message = FALSE, results = 'asis'}
 xfun::pkg_attach("dplyr", "reactable", "crosstalk")
 
-candidates <- readRDS("../psp/data/candidates.rds")
+cz_date <- function(x) {
+  x <- format(x, "%e. %m. %Y") |>
+    stringr::str_replace("\\s0", " ")
+  return(x)
+}
+
+candidates <- readRDS("../psp/data/candidates.rds") |>
+  select(JMENO, PRIJMENI, VEK, POVOLANI, since, until, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, state)
 
 # Create shared data object for Crosstalk filters
 shared_candidates <- SharedData$new(candidates)
@@ -36,11 +43,10 @@ candidate_table <- reactable(
   columns = list(
     JMENO = colDef(name = "Jméno"),
     PRIJMENI = colDef(name = "Příjmení"),
-    VEK = colDef(name = "Věk"),
-    PORADIMAND = colDef(name = "Pořadí"),
-    since = colDef(name = "Od"),
-    until = colDef(name = "Do"),
-    PORADINAHR = colDef(show = FALSE),
+    VEK = colDef(name = "Věk", width = 50),
+    POVOLANI = colDef(name = "Povolání", width = 350),
+    since = colDef(name = "Mandát od", cell = cz_date),
+    until = colDef(name = "Mandát do", cell = cz_date),
     VOLKRAJ = colDef(show = FALSE),
     NAZVOLKRAJ = colDef(show = FALSE),
     KSTRANA = colDef(show = FALSE),
@@ -49,13 +55,16 @@ candidate_table <- reactable(
   ),
   pagination = FALSE,
   highlight = TRUE,
-  striped = TRUE,
   bordered = TRUE,
-  compact = TRUE,
+#  compact = TRUE,
   rowStyle = JS("
     function(rowInfo) {
       if (rowInfo.row.state == 11) {
-        return { backgroundColor: '#e8f5e9' }  // light green for elected candidates
+        return { backgroundColor: '#e8f5e9' }  // poslanec od začátku
+      } else if (rowInfo.row.state == 12) {
+        return { backgroundColor: '#fcf988' }  // poslanec–náhradník
+      } else if (rowInfo.row.state == 3) {
+        return { backgroundColor: '#ffb8b0' }  // bývalý poslanec
       } else {
         return {}
       }
@@ -65,7 +74,7 @@ candidate_table <- reactable(
 
 # Arrange filters above the table
 htmltools::tagList(
-  htmltools::h3("Kandidátky podle kraje a strany"),
+  htmltools::h4("Vyberte kraj a stranu"),
   region_filter,
   party_filter,
   candidate_table
