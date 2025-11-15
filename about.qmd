@@ -2,9 +2,10 @@
 title: "About"
 ---
 
+Tyto stránky byly vytvořeny ve formátu [Quarto](https://quarto.org/docs/websites) a za použití jazyka R. Jsou hostovány na platformě [Netlify](https://www.netlify.com/). Zdrojové soubory jsou zveřejněny na [GitHubu](https://github.com/jfronc/nahradnici).
+
 **Zdroje dat**
 
 * [https://www.volby.cz/opendata/ps2025/ps2025_opendata.htm](Volby.cz)
 
 * [https://www.psp.cz/sqw/hp.sqw?k=1300](PSP ČR)
-

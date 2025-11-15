@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://nahradnici.jfronc.cz/psp/psp_stats.html</loc>
+    <lastmod>2025-11-15T20:13:51.173Z</lastmod>
+  </url>
+  <url>
     <loc>https://nahradnici.jfronc.cz/web/ep.html</loc>
     <lastmod>2025-08-30T20:16:24.549Z</lastmod>
   </url>
   <url>
-    <loc>https://nahradnici.jfronc.cz/index.html</loc>
-    <lastmod>2025-11-07T22:18:12.647Z</lastmod>
+    <loc>https://nahradnici.jfronc.cz/psp/PSP.html</loc>
+    <lastmod>2025-11-15T20:31:04.265Z</lastmod>
   </url>
   <url>
     <loc>https://nahradnici.jfronc.cz/about.html</loc>
-    <lastmod>2025-11-13T12:15:00.455Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nahradnici.jfronc.cz/psp/PSP.html</loc>
-    <lastmod>2025-11-13T11:43:02.295Z</lastmod>
+    <lastmod>2025-11-15T19:43:11.216Z</lastmod>
   </url>
 </urlset>

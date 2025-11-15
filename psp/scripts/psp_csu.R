@@ -3,10 +3,12 @@ xfun::pkg_attach("tidyverse", "magrittr", "xml2")
 psrk <- read_xml("https://www.volby.cz/opendata/ps2025/xml/psrk.xml") |> xml_ns_strip()
 vysledky <- read_xml("https://www.volby.cz/appdata/ps2025/odata/vysledky.xml") |> xml_ns_strip()
 psvolkr <- read_xml("https://www.volby.cz/opendata/ps2025/xml/psvolkr.xml") |> xml_ns_strip()
+cns <- read_xml("https://www.volby.cz/opendata/ps2025/xml/cns.xml") |> xml_ns_strip()
 
 saveRDS(as.character(psrk), here::here("psp/data/psrk.rds"))
 saveRDS(as.character(vysledky), here::here("psp/data/vysledky.rds"))
 saveRDS(as.character(psvolkr), here::here("psp/data/psvolkr.rds"))
+saveRDS(as.character(cns), here::here("psp/data/cns.rds"))
 
 psrk <- readRDS(here::here("psp/data/psrk.rds")) |> read_xml()
 vysledky <- readRDS(here::here("psp/data/vysledky.rds")) |> read_xml()
@@ -51,10 +53,11 @@ get_votes <- function (doc) {
   }
 }
 
-parties <- xml_find_all(vysledky, ".//CR/STRANA") %>%
+lists <- xml_find_all(vysledky, ".//CR/STRANA") %>%
   map(get_votes) %>%
   list_rbind() %>%
   arrange(desc(HLASY))
+
 
 fields_k <- c("VOLKRAJ", "NAZVOLKRAJ")
 kraje <- xml_find_all(psvolkr, ".//PS_VOLKRAJ_ROW") %>%
@@ -63,8 +66,15 @@ kraje <- xml_find_all(psvolkr, ".//PS_VOLKRAJ_ROW") %>%
     VOLKRAJ = as.integer(VOLKRAJ)
   )
   
+fields_cns <- c("NSTRANA", "NAZEV_STRN", "ZKRATKAN8")
+parties <- xml_find_all(cns, ".//CNS_ROW") %>%
+  map_df( ~ set_names(extract_fields(.x, fields_cns), fields_cns)) %>% 
+  mutate(
+    NSTRANA = as.integer(NSTRANA)
+  )
+
 grid <- expand_grid(
-  KSTRANA = parties$KSTRANA,
+  KSTRANA = lists$KSTRANA,
   VOLKRAJ = 1:14
 )
 
@@ -75,7 +85,7 @@ ppl <- map2(
   .progress = TRUE
   ) %>% list_rbind()
 
-ppl %<>% left_join(select(parties, KSTRANA, NAZ_STR)) %>%
+ppl %<>% left_join(select(lists, KSTRANA, NAZ_STR)) %>%
   left_join(kraje)
 
 if (nrow(filter(ppl, !is.na(PORADIMAND))) != 200) {
@@ -83,5 +93,5 @@ if (nrow(filter(ppl, !is.na(PORADIMAND))) != 200) {
   }
 
 saveRDS(ppl, here::here("psp/data/ppl.rds"))
-
+saveRDS(parties, here::here("psp/data/parties.rds"))
 

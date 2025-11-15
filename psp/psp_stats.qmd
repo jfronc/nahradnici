@@ -3,14 +3,24 @@ title: "Statistiky"
 format: html
 ---
 
-```{r echo = FALSE, warning = FALSE, message = FALSE, results = 'asis'}
-xfun::pkg_attach("dplyr")
+Následující statistiky uvádějí pravděpodobnost charakteristik dalšího náhradníka dané volební strany. Pro každý kraj se bere aktuální první náhradník, přičemž se počítá za každého poslance na příslušné kandidátce (tzn. pro kolik poslanců je náhradníkem).
 
-candidates <- readRDS("../psp/data/candidates.rds") |>
-  select(JMENO, PRIJMENI, since, until, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, state)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+xfun::pkg_attach("dplyr", "gt")
+```
+
+### Podle pohlaví
+
+```{r}
+nahradnici <- readRDS(here::here("psp/data/candidates.rds")) |>
+  select(JMENO, PRIJMENI, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, PSTRANA, NSTRANA, state, weight) |> 
+  filter(state == 21)
+
+parties <- readRDS(here::here("psp/data/parties.rds"))
 
 pohlavi <- function (surname) {
-  if (grepl("(ová|á$)", surname)) {
+  if (grepl("(ová|á$)", surname)) { # primitivní heuristika
     return("Ž")
   } else {
     return("M")
@@ -28,9 +38,37 @@ nahradnici %>%
   group_by(NAZ_STR) %>%
   summarise(
     total_weight = sum(weight),
-    pct_female = pctg(sum(weight[pohlavi == "Ž"]) / total_weight),
-    pct_male   = pctg(sum(weight[pohlavi == "M"]) / total_weight),
+    Žena = pctg(sum(weight[pohlavi == "Ž"]) / total_weight),
+    Muž  = pctg(sum(weight[pohlavi == "M"]) / total_weight),
     .groups = "drop"
-  )
+  ) %>%
+  select(-total_weight) %>%
+  gt()
 
+```
+
+### Podle navrhující strany (SPOLU)
+```{r}
+nahradnici %>%
+  filter(KSTRANA == 11) %>%
+  ungroup() %>%
+  group_by(NSTRANA) %>%
+  summarise(total_weight = sum(weight), .groups = "drop_last") %>%
+  mutate(pct = pctg(total_weight / sum(total_weight))) %>%
+  left_join(parties, "NSTRANA") %>%
+  select(ZKRATKAN8, pct) %>%
+  gt()
+```
+
+### Podle politické příslušnosti (SPD)
+```{r}
+nahradnici %>%
+  filter(KSTRANA == 6) %>%
+  ungroup() %>%
+  group_by(PSTRANA) %>%
+  summarise(total_weight = sum(weight), .groups = "drop_last") %>%
+  mutate(pct = pctg(total_weight / sum(total_weight))) %>%
+  left_join(parties, by = join_by(PSTRANA == NSTRANA)) %>%
+  select(ZKRATKAN8, pct) %>%
+  gt()
 ```

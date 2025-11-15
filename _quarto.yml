@@ -6,10 +6,12 @@ website:
   site-url: https://nahradnici.jfronc.cz/
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - psp/PSP.qmd
+      - psp/psp_stats.qmd
       - about.qmd
-
+    right: 
+      - href: https://jfronc.cz/
+        text: Jaromír Fronc
 format:
   html:
     theme:
@@ -18,5 +20,7 @@ format:
     css: styles.css
     toc: true
 
+execute:
+  freeze: auto
 
 

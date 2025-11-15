@@ -1,11 +1,12 @@
 ---
-title: "PSP"
+title: "Poslanci a náhradníci"
 format:
   html:
     page-layout: full
 ---
 
-```{r echo = FALSE, warning = FALSE, message = FALSE, results = 'asis'}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
 xfun::pkg_attach("dplyr", "reactable", "crosstalk")
 
 cz_date <- function(x) {
@@ -14,9 +15,32 @@ cz_date <- function(x) {
   return(x)
 }
 
-candidates <- readRDS("../psp/data/candidates.rds") |>
-  select(JMENO, PRIJMENI, VEK, POVOLANI, since, until, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, state)
+candidates <- readRDS(here::here("psp/data/candidates.rds")) |>
+  select(JMENO, PRIJMENI, VEK, POVOLANI, since, until, POCPROC, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, state)
 
+newest <- candidates$since |> max(na.rm = TRUE)
+```
+
+**Poslední změna ve složení PSP:** `r cz_date(newest)`
+```{r until}
+pull_name <- function(df, side, icon, date) {
+  df <- df |>
+    ungroup() |>
+    filter({{ side }} == date) |>
+    mutate(line = paste0(icon, " ", JMENO, " ", PRIJMENI, " (", NAZ_STR, ")")) |>
+    pull(line)
+  return(df)
+}
+
+pull_name(candidates, until, "🚫", newest) |> cat()
+```
+
+```{r since}
+pull_name(candidates, since, "➡️", newest) |> cat()
+
+```
+
+```{r table}
 # Create shared data object for Crosstalk filters
 shared_candidates <- SharedData$new(candidates)
 
@@ -43,10 +67,11 @@ candidate_table <- reactable(
   columns = list(
     JMENO = colDef(name = "Jméno"),
     PRIJMENI = colDef(name = "Příjmení"),
-    VEK = colDef(name = "Věk", width = 50),
-    POVOLANI = colDef(name = "Povolání", width = 350),
-    since = colDef(name = "Mandát od", cell = cz_date),
-    until = colDef(name = "Mandát do", cell = cz_date),
+    VEK = colDef(name = "Věk", width = 45),
+    POCPROC = colDef(name = "Pref. hl.", width = 80),
+    POVOLANI = colDef(name = "Povolání", width = 380),
+    since = colDef(name = "Mandát od", cell = cz_date, width = 100),
+    until = colDef(name = "Mandát do", cell = cz_date, width = 100),
     VOLKRAJ = colDef(show = FALSE),
     NAZVOLKRAJ = colDef(show = FALSE),
     KSTRANA = colDef(show = FALSE),
