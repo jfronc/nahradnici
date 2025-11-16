@@ -39,7 +39,7 @@ ppl <- readRDS(here::here("psp/data/ppl.rds"))
 
 symdiff(
   filter(zarazeni, since == "2025-10-04") %>% select(JMENO, PRIJMENI, VEK),
-  filter(ppl, !is.na(PORADIMAND)) %>% select(JMENO, PRIJMENI, VEK)
+  filter(ppl, !is.na(PORADIMAND)) %>% ungroup() %>% select(JMENO, PRIJMENI, VEK)
 )
   
 ppl %<>%
@@ -48,11 +48,12 @@ ppl %<>%
   filter(any(!is.na(PORADIMAND))) %>%
   mutate(
     state = case_when(
+      PLATNOST == "N" ~ 0, # vyškrtnutý
       !is.na(PORADIMAND) & is.na(until) ~ 11, # poslanec od začátku
       since > as.Date("2025-10-04") & is.na(until) ~ 12, # poslanec–náhradník
       row_number() == which(is.na(since))[1] ~ 21, # první náhradník
       !is.na(since) & !is.na(until) ~ 3, # bývalý poslanec
-      .default = 0
+      .default = 2 # náhradník
     ),
     weight = sum(!is.na(PORADIMAND))
   )
@@ -60,7 +61,6 @@ ppl %<>%
 if (nrow(filter(ppl, state == 11)) + nrow(filter(ppl, state == 12)) != 200) {
   stop("Poslanců dle 'state' není 200!")
 }
-filter(ppl, state == 12)
 
 saveRDS(ppl, here::here("psp/data/candidates.rds"))
 

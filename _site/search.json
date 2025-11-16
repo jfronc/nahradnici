@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "psp/psp_stats.html",
-    "href": "psp/psp_stats.html",
-    "title": "Statistiky",
-    "section": "",
-    "text": "Následující statistiky uvádějí pravděpodobnost charakteristik dalšího náhradníka dané volební strany. Pro každý kraj se bere aktuální první náhradník, přičemž se počítá za každého poslance na příslušné kandidátce (tzn. pro kolik poslanců je náhradníkem).\n\nPodle pohlaví\n\n\n\n\n\n\n\n\nNAZ_STR\nŽena\nMuž\n\n\n\n\nANO 2011\n14 %\n86 %\n\n\nMotoristé sobě\n8 %\n92 %\n\n\nSPOLU (ODS, KDU-ČSL, TOP 09)\n19 %\n81 %\n\n\nSTAROSTOVÉ A NEZÁVISLÍ\n64 %\n36 %\n\n\nSvoboda a přímá demokracie (SPD)\n20 %\n80 %\n\n\nČeská pirátská strana\n56 %\n44 %\n\n\n\n\n\n\n\n\n\nPodle navrhující strany (SPOLU)\n\n\n\n\n\n\n\n\nZKRATKAN8\npct\n\n\n\n\nKDU-ČSL\n31 %\n\n\nODS\n62 %\n\n\nTOP 09\n8 %\n\n\n\n\n\n\n\n\n\nPodle politické příslušnosti (SPD)\n\n\n\n\n\n\n\n\nZKRATKAN8\npct\n\n\n\n\nSPD\n80.0 %\n\n\nTrikolora\n13.3 %\n\n\nPRO\n6.7 %"
-  },
-  {
     "objectID": "web/ep.html",
     "href": "web/ep.html",
     "title": "Evropský parlament 2024",
@@ -26,5 +19,19 @@
     "title": "About",
     "section": "",
     "text": "Tyto stránky byly vytvořeny ve formátu Quarto a za použití jazyka R. Jsou hostovány na platformě Netlify. Zdrojové soubory jsou zveřejněny na GitHubu.\nZdroje dat\n\nhttps://www.volby.cz/opendata/ps2025/ps2025_opendata.htm\nhttps://www.psp.cz/sqw/hp.sqw?k=1300"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Náhradníci",
+    "section": "",
+    "text": "Motivace:\n\nÚprk europoslanců do Sněmovny? Turkův náhradník Šlachta do Bruselu nechce. Novinky, 1. 12. 2024\nOdchod Konečné a Turka do Sněmovny? Riziko pro komunisty i Motoristy v EU. Seznam Zprávy, 10. 4. 2025\nFronc, Jaromír. Kdy se senátor musí stát poslancem? In: Wintr, Jan, Antoš, Marek (eds). Problémy parlamentarismu. Praha: Univerzita Karlova, Právnická fakulta, 2018, str. 28–43"
+  },
+  {
+    "objectID": "psp/psp_stats.html",
+    "href": "psp/psp_stats.html",
+    "title": "Statistiky",
+    "section": "",
+    "text": "Následující statistiky uvádějí pravděpodobnost charakteristik dalšího náhradníka dané volební strany. Pro každý kraj se bere aktuální první náhradník, přičemž se počítá za každého poslance na příslušné kandidátce (tzn. pro kolik poslanců je náhradníkem).\n\nPodle pohlaví\n\n\n\n\n\n\n\n\nNAZ_STR\nŽena\nMuž\n\n\n\n\nANO 2011\n14 %\n86 %\n\n\nMotoristé sobě\n8 %\n92 %\n\n\nSPOLU (ODS, KDU-ČSL, TOP 09)\n19 %\n81 %\n\n\nSTAROSTOVÉ A NEZÁVISLÍ\n64 %\n36 %\n\n\nSvoboda a přímá demokracie (SPD)\n20 %\n80 %\n\n\nČeská pirátská strana\n56 %\n44 %\n\n\n\n\n\n\n\n\n\nPodle navrhující strany (SPOLU)\n\n\n\n\n\n\n\n\nZKRATKAP8\npct\n\n\n\n\nKDU-ČSL\n31 %\n\n\nODS\n62 %\n\n\nTOP 09\n8 %\n\n\n\n\n\n\n\n\n\nPodle politické příslušnosti (SPD)\n\n\n\n\n\n\n\n\nZKRATKAP8\npct\n\n\n\n\nSPD\n80.0 %\n\n\nTrikolora\n13.3 %\n\n\nPRO\n6.7 %"
   }
 ]

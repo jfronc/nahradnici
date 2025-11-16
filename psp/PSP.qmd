@@ -15,8 +15,14 @@ cz_date <- function(x) {
   return(x)
 }
 
+parties <- readRDS(here::here("psp/data/parties.rds"))
 candidates <- readRDS(here::here("psp/data/candidates.rds")) |>
-  select(JMENO, PRIJMENI, VEK, POVOLANI, since, until, POCPROC, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, state)
+  mutate(
+    prefhl = paste0("<div>", format(POCHLASU, big.mark = " "), "<small> (", POCPROC, " %)</small></div>")
+    ) |>
+  select(JMENO, PRIJMENI, VEK, POVOLANI, PSTRANA, since, until, prefhl, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, state) |>
+  left_join(parties, by = "PSTRANA") |>
+  select(-c(PSTRANA, NAZEV_STRP))
 
 newest <- candidates$since |> max(na.rm = TRUE)
 ```
@@ -68,8 +74,9 @@ candidate_table <- reactable(
     JMENO = colDef(name = "Jméno"),
     PRIJMENI = colDef(name = "Příjmení"),
     VEK = colDef(name = "Věk", width = 45),
-    POCPROC = colDef(name = "Pref. hl.", width = 80),
-    POVOLANI = colDef(name = "Povolání", width = 380),
+    POVOLANI = colDef(name = "Povolání", width = 400),
+    ZKRATKAP8 = colDef(name = "Pol. přísl.", width = 100),
+    prefhl = colDef(name = "Pref. hl.", width = 130, html = TRUE),
     since = colDef(name = "Mandát od", cell = cz_date, width = 100),
     until = colDef(name = "Mandát do", cell = cz_date, width = 100),
     VOLKRAJ = colDef(show = FALSE),
@@ -90,6 +97,8 @@ candidate_table <- reactable(
         return { backgroundColor: '#fcf988' }  // poslanec–náhradník
       } else if (rowInfo.row.state == 3) {
         return { backgroundColor: '#ffb8b0' }  // bývalý poslanec
+      } else if (rowInfo.row.state == 0) {
+        return { textDecoration: 'line-through' }  // vyškrtnutý
       } else {
         return {}
       }

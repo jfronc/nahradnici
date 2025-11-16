@@ -12,7 +12,7 @@ xfun::pkg_attach("dplyr", "gt")
 
 ### Podle pohlaví
 
-```{r}
+```{r sex}
 nahradnici <- readRDS(here::here("psp/data/candidates.rds")) |>
   select(JMENO, PRIJMENI, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, PSTRANA, NSTRANA, state, weight) |> 
   filter(state == 21)
@@ -48,27 +48,27 @@ nahradnici %>%
 ```
 
 ### Podle navrhující strany (SPOLU)
-```{r}
+```{r spolu}
 nahradnici %>%
   filter(KSTRANA == 11) %>%
   ungroup() %>%
   group_by(NSTRANA) %>%
   summarise(total_weight = sum(weight), .groups = "drop_last") %>%
   mutate(pct = pctg(total_weight / sum(total_weight))) %>%
-  left_join(parties, "NSTRANA") %>%
-  select(ZKRATKAN8, pct) %>%
+  left_join(parties, by = join_by(NSTRANA == PSTRANA)) %>%
+  select(ZKRATKAP8, pct) %>%
   gt()
 ```
 
 ### Podle politické příslušnosti (SPD)
-```{r}
+```{r spd}
 nahradnici %>%
   filter(KSTRANA == 6) %>%
   ungroup() %>%
   group_by(PSTRANA) %>%
   summarise(total_weight = sum(weight), .groups = "drop_last") %>%
   mutate(pct = pctg(total_weight / sum(total_weight))) %>%
-  left_join(parties, by = join_by(PSTRANA == NSTRANA)) %>%
-  select(ZKRATKAN8, pct) %>%
+  left_join(parties, by = "PSTRANA") %>%
+  select(ZKRATKAP8, pct) %>%
   gt()
 ```
