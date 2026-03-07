@@ -46,7 +46,6 @@
 598|168|1|US-DEU|Poslaneckı klub Unie svobody-Demokratické unie|Political group Freedom Union-Democratic Union|18.06.2002|15.06.2006|1005|0|
 599|168|1|ÈSSD|Poslaneckı klub Èeské strany sociálnì demokratické|Political group Czech Social Democratic Party|21.06.2002|15.06.2006|1001|0|
 600|168|1|ODS|Poslaneckı klub Obèanské demokratické strany|Political group Civic Democratic Party|25.06.2002|15.06.2006|1002|0|
-24|165|2|SKVY|Stálá komise pro státní vyznamenání|Standing Commission on State Decorations|07.02.1995|06.06.1996||0|
 26||2|VK|Volební komise Poslanecké snìmovny|Electoral Comm. of the Chamber of Deputies|27.09.1995|06.06.1996||0|
 27|165|3|BBV|Brannı a bezpeènostní vıbor|Committee for Defence and Security|06.06.1992|06.06.1996||0|
 28||3|HV|Hospodáøskı vıbor|Committee for Economics|06.06.1992|06.06.1996||0|
@@ -230,7 +229,6 @@
 1104||6|ANO2011|ANO2011|ANO2011|26.10.2013||||
 131|84|4|LPS|Podvıbor pro aplikaci Listiny základních práv a svobod|Subcommittee on Charter of Fundamental Human Rights and Freedoms Application|01.10.1998|20.06.2002||0|
 678|613|4|PFHUS|Podvıbor pro finanèní hospodaøení územních samospráv a pro vyuívání fondù Evropské unie|Subcommittee on the Financial Management of Regional Governments and for the use of European Union Funding|28.11.2002|15.06.2006||0|
-679|168|2|SKZSSB|Stálá komise Poslanecké snìmovny pro sledování procesu zpøístupnìní svazkù vzniklıch èinností bıvalé STB|Standing Commission on Supervision of the Disclosure of the State Security Files|27.11.2002|15.06.2006||0|
 729||78|PSNM|Pracovní skupina pro øešení problematiky nepotøebného majetku a ekologické likvidace nepotøebné munice Ministerstva obrany ÈR|Working Group for resolving the problem of unneeded property and ecological disposal of unneeded munitions of the Ministry of Defense of the Czech Republic|02.07.2003|||0|
 132|91|4|MEL|Podvıbor pro mediální legislativu|Subcommittee for Media Legislation|04.11.1998|20.06.2002||0|
 134||7|OBS|Stálá delegace Parlamentu do Parlamentního shromádìní Organizace pro bezpeènost a spolupráci v Evropì|Permanent Delegation to the Parliamentary Assembly of the OSCE|04.07.1996|19.06.1998||0|
@@ -244,10 +242,12 @@
 140||7|RE|Stálá delegace Parlamentu do Parlamentního shromádìní Rady Evropy|Permanent Delegation to the Parliament. Assembly of the Council of Europe|16.10.1998|20.06.2002||0|
 681|649|13|AUSTR-N|Austrálie a Novı Zéland|Czech Republic - Australia and New Zealand Inter-Parliamentary Group|18.12.2002|15.06.2006||0|
 141||7|OBSE|Stálá delegace Parlamentu do Parlamentního shromádìní Organizace pro bezpeènost a spolupráci v Evropì|Permanent Delegation to the Parliamentary Assembly of the OSCE|16.10.1998|20.06.2002||0|
+1802||5|VládaÈR|Vláda Èeské republiky||15.12.2025||0|1|
 142||7|EP|Stálá delegace Parlamentu pro spolupráci s Evropskım parlamentem|Permanent Delegation for Cooperation with the European Parliament|16.10.1998|20.06.2002||0|
 143|167|7|PSNATO|Stálá delegace Parlamentu do Parlamentního shromádìní NATO|Permanent Delegation to the North Atlantic Assembly|16.10.1998|20.06.2002||0|
 682|649|13|BENELUX|BENELUX|Czech Republic - Benelux Inter-Parliamentary Group|11.12.2002|15.06.2006||0|
 144||7|MPU|Stálá delegace Parlamentu do Meziparlamentní unie|Permanent Delegation to the Inter-Parliamentary Union|16.10.1998|20.06.2002||0|
+423||15|ÚVOP|Kanceláø veøejného ochránce práv a ochránce práv dìtí|The Office of the Public Defender of Rights (Ombudsman) of the Czech Republic|28.02.2000|||1|
 146||7|SEI|Stálá delegace Parlamentu do Støedoevropské iniciativy|Permanent Delegation to the Central European Initiative|16.10.1998|20.06.2002||0|
 147||5|VládaÈR|Vláda Èeské republiky|Government of Czech Republic|01.01.1993|03.07.1996||0|
 683|649|13|UK|Velká Británie|Czech Republic - United Kingdom Inter-Parliamentary Group|11.12.2002|15.06.2006||0|
@@ -411,7 +411,6 @@
 292||24|NSSS|Spoleèné schùze Poslanecké snìmovny a Senátu||15.11.1925|25.09.1929|10|0|
 293||24|NSPS|Poslanecká snìmovna|Chamber of Deputies|15.11.1925|25.09.1929|1|0|
 294||24|NSSS|Spoleèné schùze Poslanecké snìmovny a Senátu||25.04.1920|14.11.1925|10|0|
-1718|1574|13|IN|Indie||01.02.2023|08.10.2025||0|
 295||24|NSPS|Poslanecká snìmovna|Chamber of Deputies|25.04.1920|14.11.1925|1|0|
 296||27|NSPS|Revoluèní Národní shromádìní|National Assembly|14.11.1918|15.04.1920||0|
 297||28|SKCS|Snìm království Èeského||01.01.1908|31.12.1911||0|
@@ -518,7 +517,6 @@
 419||15|PF|Pozemkovı fond Èeské republiky|The Land Fund of the Czech Republic|01.01.1993|30.11.2011||0|
 420||15|RSFK ÈR|Rada Státního fondu kultury Èeské republiky|The Council of the State Cultural Fund of the Czech Republic|01.01.1993|||0|
 422||15|NKÚ|Nejvyšší kontrolní úøad|The Supreme Audit Office of the Czech Republic|01.07.1993|||1|
-423||15|ÚVOP|Úøad Veøejného ochránce práv|The Office of the Public Defender of Rights (Ombudsman) of the Czech Republic|28.02.2000|||1|
 424||15|RÈT|Rada Èeské televize|The Czech Television Council|01.01.1992|25.01.2001||0|
 425||15|RÈR|Rada Èeského rozhlasu|The Czech Radio Council|01.01.1992|||1|
 426||15|RRTV|Rada pro rozhlasové a televizní vysílání|The Council for Radio and Television Broadcasting|09.07.1994|||0|
@@ -631,10 +629,9 @@
 1133|171|3|ZEV|Zemìdìlskı vıbor|\tCommittee on Agriculture|27.11.2013|26.10.2017||0|
 1134|171|2|RRPNM|Stálá komise pro rodinu, rovné pøíleitosti a národnostní menšiny|\tPermanent Commission on Family Issues, Equal Opportunities and Minorities|10.12.2013|26.10.2017||0|
 1135|171|2|SKBIS|Stálá komise pro kontrolu èinnosti Bezpeènostní informaèní sluby|\tPermanent Commission on Oversight over the work of the Security Information Service|10.12.2013|26.10.2017||0|
-1136|171|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù|Standing Commission on Activities of the General Inspection of Security Forces|10.12.2013|26.10.2017||0|
 1137|171|2|SKNBU|Stálá komise pro kontrolu èinnosti Národního bezpeènostního úøadu|Permanent Commission on Oversight over the work of the National Security Office|10.12.2013|26.10.2017||0|
 1138|171|2|SKVZ|Stálá komise pro kontrolu èinnosti Vojenského zpravodajství|Permanent Commission on Oversight over the work of Military Intelligence|10.12.2013|26.10.2017||0|
-1139|171|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Standing Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|10.12.2013|26.10.2017||0|
+1139|171|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Permanent Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|10.12.2013|26.10.2017|1000|0|
 476||42|DRSFDI|Dozorèí rada Státního fondu dopravní infrastruktury|The Supervisory Board of the State Fund of Transport Infrastructure|27.06.2000|||0|
 481||42|DR SFRB|Dozorèí rada Státního fondu podpory investic|The Supervisory Board of the State Fund for Support of Investments|21.07.2000|||0|
 478|167|2|VK IPB|Vyšetøovací komise pro objasnìní rozhodování státu v IPB|Commission of Enquiry on the State-made decisions on IPB|04.07.2000|30.06.2001||0|
@@ -816,6 +813,7 @@
 847||82|ÚVÈR|Úøad vlády Èeské republiky|The Government of the Czech Republic|01.01.1993|||1|
 848||82|NBÚ|Národní bezpeènostní úøad|The National Security Office|01.01.1993|||1|
 849||5|VládaÈR|Vláda Èeské republiky|Government of the Czech Republic|09.01.2007|08.05.2009||1|
+1803|1758|4|PNPUSV|Podvıbor pro pøípravu návrhù na propùjèení nebo udìlení státních vyznamenání|Subcommittee on Preparation of Recommendations for Conferring or Awarding State Decorations|17.12.2025||0|0|
 851|767|4|PDR|Podvıbor pro dùchodovou reformu|Subcommittee on Pension Reform|05.10.2006|03.06.2010||0|
 852|169|1|SZ|Poslaneckı klub Strany zelenıch|Political group of the Green Party|09.01.2007|03.06.2010|1005|0|
 853|765|4|PKPFAÈR|Podvıbor pro kontrolu programového financování AÈR|Subcommittee on Oversight over Project Financing of the Armed Forces of the Czech Republic|10.01.2007|03.06.2010||0|
@@ -921,7 +919,6 @@
 969|170|2|SKPKPS|Stálá komise pro práci Kanceláøe Poslanecké snìmovny|Permanent Commission on the work of the Office of the Chamber of Deputies|09.07.2010|28.08.2013||0|
 970|170|2|SKRRP|Stálá komise pro rodinu a rovné pøíleitosti|Permanent Commission on Family Issues and on Equal Opportunities|09.07.2010|28.08.2013||0|
 971|170|2|SKBIS|Stálá komise pro kontrolu èinnosti Bezpeènostní informaèní sluby|Permanent Commission on Oversight over the work of the Security Information Service|09.07.2010|28.08.2013||0|
-972|170|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Standing Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|09.07.2010|28.08.2013||0|
 973|170|2|SKVZ|Stálá komise pro kontrolu èinnosti Vojenského zpravodajství|Permanent Commission on Oversight over the work of Military Intelligence|09.07.2010|28.08.2013||0|
 974|170|2|SKNBU|Stálá komise pro kontrolu èinnosti Národního bezpeènostního úøadu|Permanent Commission on Oversight over the work of the National Security Office|09.07.2010|28.08.2013||0|
 975|170|7|SDMPU|Stálá delegace Parlamentu do Meziparlamentní unie|Permanent Delegation to the Inter-Parliamentary Union|09.07.2010|28.08.2013||0|
@@ -1022,10 +1019,9 @@
 1071|975|13|BR|Brazílie|the Federative Republic of Brazil|25.10.2011|28.08.2013||0|
 1072|975|13|GR|Øecko|the Hellenic Republic|26.11.2011|28.08.2013||0|
 1073|975|13|BNL|Benelux|Benelux|02.11.2011|28.08.2013||0|
-1074|975|13|CH|Švıcarsko|the Swiss|02.11.2011|28.08.2013||0|
+1838|1766|4|PBPV|Podvıbor pro bytovou politiku a vıstavbu|Subcommittee on Housing Policy and Construction|22.01.2026||0|0|
 1075|975|13|E,P|Španìlsko, Portugalsko|Spain, Portugal|02.11.2011|28.08.2013||0|
 1730|1721|114|OM|Oddìlení administrativy a nákupu||01.10.2023|||0|
-1076|170|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù|Standing Commission on Activities of the General Inspection of Security Forces|01.01.2012|28.08.2013||0|
 1077||15|EKOPO|Etická komise ÈR pro ocenìní úèastníkù odboje a odporu proti komunismu||17.11.2011|||1|
 1078|170|3|VO|Vıbor pro obranu|\tCommittee on Defence|06.12.2011|28.08.2013||0|
 1079|170|3|VB|Vıbor pro bezpeènost|\tCommittee on Security|06.12.2011|28.08.2013||0|
@@ -1045,7 +1041,6 @@
 1093|975|13|IE|Irsko|Ireland|09.05.2012|28.08.2013||0|
 1094|975|13|PK|Pakistan|Islamic Republic of Pakistan|09.05.2012|28.08.2013||0|
 1095|987|78|NSLCR|Pracovní skupina k problematice zvyšování nájmù LÈR pod sportovišti|Work Group on Rent Rise of LÈR at Sporting Grounds|03.02.2012|28.08.2013||0|
-1731|1574|13|CY|Kypr||03.10.2023|08.10.2025||0|
 1140|171|7|SDMPU|Stálá delegace Parlamentu do Meziparlamentní unie|Permanent Delegation to the Inter-Parliamentary Union|12.12.2013|26.10.2017||1|
 1141|171|7|SDNATO|Stálá delegace Parlamentu do Parlamentního shromádìní NATO|Permanent Delegation to the NATO Parliamentary Assembly|12.12.2013|26.10.2017||1|
 1142|171|7|SDOBSE|Stálá delegace Parlamentu do Parlamentního shromádìní Organizace pro bezpeènost a spolupráci v Evropì|Permanent Delegation to the Parliamentary Assembly of the OSCE|12.12.2013|26.10.2017||1|
@@ -1178,7 +1173,6 @@
 1276|1140|13|ID|Indonésie|Republic of Indonesia|10.04.2015|26.10.2017||0|
 1277||84|PSOBSE|Parlamentní shromádìní OBSE||01.01.1993|||0|
 1278||84|CPSOBSE|Hlavní vıbor pro demokracii, lidská práva a humanitární otázky PS OBSE||01.01.1993|||1|
-1279|171|2|SKFAU|Stálá komise pro kontrolu èinnosti Finanèního analytického úøadu|Standing Commission on Activities of the Financial Analytical Office|02.10.2015|26.10.2017||0|
 1280|1140|13|XFR|Frankofonie|Francophone|09.12.2015|26.10.2017||0|
 1281|1140|13|SN|Senegalská republika|Republic of Senegal|01.06.2016|26.10.2017||0|
 1282|171|2|VKÚOOZ|Vyšetøovací komise k provìøení èinnosti pøíslušníkù Policejního prezidia Èeské republiky, Útvaru pro odhalování organizovaného zloèinu Policie Èeské republiky a státních zástupcù Vrchního státního zastupitelství v Olomouci v souvislosti s reorganizací ÚOOZ a ÚOKFK Policie Èeské republiky k 1. srpnu 2016|Commission of Enquiry on the Control of Activities of Police Headquarters, Department on Organised Crime and Public Prosecution Office in Olomouc in relation to its restructuring|28.06.2016|26.10.2017||0|
@@ -1219,15 +1213,12 @@
 1319|172|3|ZEV|Zemìdìlskı vıbor|Committee on Agriculture|24.11.2017|20.10.2021||0|
 1320|172|2|SKPKPS|Stálá komise pro práci Kanceláøe Poslanecké snìmovny|Permanent Commission for the work of the Office of the Chamber of Deputies|28.11.2017|20.10.2021||0|
 1321|172|2|SKRRPM|Stálá komise pro rodinu, rovné pøíleitosti a národnostní menšiny|Permanent Commission on Family Issues, Equal Opportunities and Minorities|28.11.2017|20.10.2021||0|
-1322|172|2|SKÚÈR|Stálá komise pro Ústavu Èeské republiky|Standing Commission on the Constitution of the Czech Republic|28.11.2017|20.10.2021||0|
-1323|172|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù|Standing Commission on Activities of the General Inspection of Security Forces|28.11.2017|20.10.2021||0|
-1324|172|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Standing Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|28.11.2017|20.10.2021||0|
-1325|172|2|SKCEÚ|Stálá komise pro kontrolu poskytnutí údajù z centrální evidence úètù|Standing Commission on Data Delivery by the Central Evidence of Accounts|28.11.2017|20.10.2021||0|
+1323|172|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù|Permanent Commission on Activities of the General Inspection of Security Forces|28.11.2017|20.10.2021|1000|0|
+1324|172|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Permanent Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|28.11.2017|20.10.2021|1000|0|
 1326|172|2|SKBIS|Stálá komise pro kontrolu èinnosti Bezpeènostní informaèní sluby|Permanent Commission on Oversight over the work of the Security Information Service|28.11.2017|20.10.2021||0|
 1327|172|2|SKNBÚ|Stálá komise pro kontrolu èinnosti Národního bezpeènostního úøadu|Permanent Commission on Oversight over the work of the National Security Office|28.11.2017|20.10.2021||0|
 1328|172|2|SKVZ|Stálá komise pro kontrolu èinnosti Vojenského zpravodajství|Permanent Commission on Oversight over the work of Military Intelligence|28.11.2017|20.10.2021||0|
-1329|172|2|SKFAÚ|Stálá komise pro kontrolu èinnosti Finanèního analytického úøadu|Standing Commission on Activities of the Financial Analytical Office|28.11.2017|20.10.2021||0|
-1330|172|2|SKNÚKIB|Stálá komise pro kontrolu èinnosti Národního úøadu pro kybernetickou a informaèní bezpeènost|Standing Commission on the Activities of the National Cyber and Information Security Agency|28.11.2017|20.10.2021||0|
+1325|172|2|SKCEÚ|Stálá komise pro kontrolu poskytnutí údajù z centrální evidence úètù|Permanent Commission on Data Delivery by the Central Evidence of Accounts|28.11.2017|20.10.2021|1000|0|
 1331|172|7|SDMPU|Stálá delegace Parlamentu do Meziparlamentní unie|Permanent Delegation to the Inter-Parliamentary Union|28.11.2017|20.10.2021||0|
 1332|172|7|SDNATO|Stálá delegace Parlamentu do Parlamentního shromádìní NATO|Permanent Delegation to the NATO Parliamentary Assembly|28.11.2017|20.10.2021||1|
 1333|172|7|SDOBSE|Stálá delegace Parlamentu do Parlamentního shromádìní Organizace pro bezpeènost a spolupráci v Evropì|Permanent Delegation to the Parliamentary Assembly of the OSCE|28.11.2017|20.10.2021||1|
@@ -1270,7 +1261,6 @@
 1372|1313|4|PIT|Podvıbor pro informaèní technologie a dávkové systémy|Subcommittee on Information Technologies and Benefit Systems|11.01.2018|20.10.2021||0|
 1373|1303|4|POP|Podvıbor pro ochranu práv osob omezenıch na svobodì|Subcommittee on the Protection of Rights of Persons Deprived of Liberty|09.01.2018|20.10.2021||0|
 1374|1303|4|PSSM|Podvıbor pro svobodu slova a média|Subcommittee on Freedom of Speech and Media|09.01.2018|20.10.2021||0|
-1375|172|2|SKÚZSI|Stálá komise pro kontrolu èinnosti Úøadu pro zahranièní styky a informace|Standing Commission on the Activities of the Office for Foreign Relations and Information|17.01.2018|20.10.2021||0|
 1376|1319|4|PMRVZCH|Podvıbor pro myslivost, rybáøství, vèelaøství, zahrádkáøství a chovatelství|Subcommittee on Gamekeeping, Fisheries, Apiculture, Gardening and Animal Husbandry|18.01.2018|20.10.2021||0|
 1377|1319|4|PLH|Podvıbor pro lesní hospodáøství|Subcommittee on Forestry Management|18.01.2018|20.10.2021||0|
 1378|1319|4|PVH|Podvıbor pro vodní hospodáøství|Subcommittee on Water Management|18.01.2018|20.10.2021||0|
@@ -1336,7 +1326,6 @@
 1460|1331|13|XJA|státy Jiní Ameriky|States of South America|18.04.2018|20.10.2021||0|
 1461|1331|13|THA|Thajské království|Kingdom of Thailand|16.04.2018|20.10.2021||0|
 1462|1331|13|AZE|Ázerbajdán|Republic of Azerbaijan|17.04.2018|20.10.2021||0|
-1463|1313|4|PKSR|Podvıbor pro krizové situace v rodinách||10.05.2018|20.02.2019||0|
 1464|1331|13|KW|Kuvajt|Kuwait|22.05.2018|20.10.2021||0|
 344||32|HL|Slovenská ¾udová strana||15.11.1925|25.09.1929|114|0|
 1465|1331|13|SA|Saudská Arábie|Kingdom of Saudi Arabia|25.04.2018|20.10.2021||0|
@@ -1388,7 +1377,6 @@
 1517|1331|13|AFG|Afghánská islámská republika|Islamic Republic of Afghanistan|09.03.2020|20.10.2021||0|
 1518|172|2|DKCOVID|Doèasná komise pro hodnocení úèinnosti vládní pomoci v rámci COVID||03.06.2020|20.10.2021||0|
 1519||117|OO|Odborová organizace||01.01.2018|||0|
-1520|172|2|SKHH|Stálá komise pro hybridní hrozby||16.06.2020|20.10.2021||0|
 233|144|13|Bulhar|Bulharsko|Bulgaria|09.02.1999|20.06.2002||0|
 234|144|13|BNL|BENELUX|countries of BENELUX|09.02.1999|20.06.2002||0|
 235|144|13|ASEAN|ASEAN|countries of ASEAN|04.02.1999|20.06.2002||0|
@@ -1398,19 +1386,142 @@
 1527||118|ÈTÚ|Èeskı telekomunikaèní úøad||01.01.1993||||
 1528||118|FA|Finanèní arbitr||01.01.1993||||
 1529||118|VOP|Veøejnı ochránce práv||01.01.1993||||
-1530|1315|4|PRT|Podvıbor pro regiony v transformaci||10.12.2020|20.10.2021||0|
 1531|172|2|VKBEÈVA|Vyšetøovací komise k ekologické katastrofì na øece Beèvì||21.04.2021|20.10.2021||0|
 503||68|KS-SDL|Strana demokratickej ¾avice||07.06.1990|04.06.1992|130||
 1532||15|ONKZSÈR|Orgán nezávislé kontroly zpravodajskıch slueb Èeské republiky||01.01.2018|||0|
+1806|1767|4|PEZZPPØO|Podvıbor pro ekonomiku ve zdravotnictví, zdravotní pojištìní a pøímo øízené organizace|Subcommittee on Healthcare Economy, Health Insurance and Directly Controlled Organizations|15.01.2026||0|0|
 1533||6|SPOLU|Spolu||09.10.2021|||0|
 1534||6|PirSTAN|Pirati+STAN||09.10.2021|||0|
+1826|1762|4|PJ|Podvıbor pro justici|Subcommittee on Judicial System|21.01.2026||0|0|
+1820|1765|4|PVVŠ|Podvıbor pro vìdu a vysoké školy|Subcommittee on Science and Post-Secondary Educational Institutions|21.01.2026||0|0|
+1824|1772|4|PBPFTDFZ|Podvıbor pro bankovnictví, pojišovnictví, finanèní trhy a další finanèní záleitosti|Subcommittee on Banking, Insurance, Financial Markets and Other Financial Matters|21.01.2026||0|0|
+1823|1768|4|PIOP|Podvıbor pro inovace v ochranì ivotního prostøedí|Subcommittee on Innovations in Environmental Protection|21.01.2026||0|0|
+1831|1760|4|PEFPSZT|Podvıbor pro evropské fondy, pøeshranièní spolupráci a zelenou transformaci|Subcommittee on EU Funds, Cross-border Cooperation and Green Transition|22.01.2026||0|0|
+1913|1786|13|GBR|Velká Británie|Great Britain|02.02.2026||1000|0|
+1827|1762|4|POPN|Podvıbor pro obìti a problematiku násilí|Subcommittee on Victims and Violence Issues|21.01.2026||0|0|
+1829|1762|4|PPEIO|Podvıbor pro problematiku exekucí, insolvencí a oddluení|Subcommitte on Executions, Insolvency and Debt Deleverage|21.01.2026||0|0|
+1830|1759|4|PK|Podvıbor pro kulturu|Subcommittee on Culture|22.01.2026||0|0|
+1833|1760|4|PMAP|Podvıbor pro migraci a azylovou politiku|Subcommittee on Migration and Asylum Policy|22.01.2026||0|0|
+1834|1769|4|PSK|Podvıbor pro styky s krajany|Subcommittee on Countryman Relations|22.01.2026||0|0|
+1832|1760|4|PDEAIOU|Podvıbor pro digitální ekonomiku, AI a ochranu uivatelù|Subcommittee on Digital Economy, AI and User Protection|22.01.2026||0|0|
+1825|1772|4|PFÚSVPEU|Podvıbor pro financování územních samospráv a vyuívání prostøedkù Evropské unie|Subcommittee on Financial Management of Teritorial Self-governing Units and European Funding Use|21.01.2026||0|0|
+1914|1786|13|VN|Vietnam|Vietnam|02.02.2026||1000|0|
+1815|1765|4|PHV|Podvıbor pro heraldiku a vexilologii|Subcommittee on Heraldy and Vexillology|21.01.2026||0|0|
+1530|1315|4|PRT|Podvıbor pro regiony v transformaci|Subcommittee on Regions in Transition|10.12.2020|20.10.2021|1000|0|
+1821|1757|4|PKHVS|Podvıbor pro kontrolu hospodaøení veøejného sektoru|Subcommittee on Public Sector Audit|21.01.2026||0|0|
+1839|1766|4|PCR|Podvıbor pro cestovní ruch|Subcommittee on Tourism|22.01.2026||0|0|
+1836|1769|4|PRS|Podvıbor pro rozvojovou spolupráci|Subcommittee on Development and Cooperation|22.01.2026||0|0|
+1837|1769|4|PLPZ|Podvıbor pro lidská práva v zahranièí|Sucommittee on Human Rights Abroad|22.01.2026||0|0|
+1841|1766|4|PRTHSOÚ|Podvıbor pro regiony v transformaci a hospodáøsky a sociálnì ohroená území|Subcommittee on Regions in Transition and Economically and Socially Disadvantaged Areas|22.01.2026||0|0|
+1792|1770|4|PLH|Podvıbor pro lesní hospodáøství|Subcommittee on Forestry Management|02.12.2025||0|0|
+1843|1771|4|PPÈRHZSOPSBA|Podvıbor pro Policii Èeské republiky, Hasièskı záchrannı sbor Èeské republiky, obecní policii a soukromé bezpeènostní agentury|Subcommittee on the Police of the Czech Republic, Fire Rescue Service of the Czech Republic, Municipal Police and Private Security Agencies|22.01.2026||0|0|
+1816|1765|4|PMVA|Podvıbor pro mláde a volnoèasové aktivity|Subcommittee on Youth and Leisure Activities|21.01.2026||0|0|
+1817|1765|4|PNVP|Podvıbor pro náhradní vıchovnou péèi|Subcommittee on Substitute Care|21.01.2026||0|0|
+1794|1770|4|PPVÈV|Podvıbor pro potravináøství, veterinární èinnost a ivoèišnou vırobu|Subcommittee on Food Industry, Veterinary Medicine and Animal Production|02.12.2025||0|0|
+1805|1764|4|PSVLZLVK|Podvıbor pro sociálnì vylouèené lokality a zaèleòování lidí po vıkonu trestu|Subcommittee on Socially Excluded Localities and Integration of Former Inmates|15.01.2026||0|0|
+1819|1765|4|PS|Podvıbor pro sport|Subcommittee on Sport|21.01.2026||0|0|
+1828|1762|4|PSS|Podvıbor pro svobodu slova|Subcommittee on Freedom of Speech|21.01.2026||0|0|
+1848|1786|13|AR|Argentina|Argentina|02.02.2026||1000|0|
+1916|1786|13|TH|Thajsko|Thailand|02.02.2026||1000|0|
+1857|1786|13|HRV|Chorvatsko|Republic of Croatia|02.02.2026||1000|0|
+1814|1763|4|PVV|Podvıbor pro váleèné veterány|Subcommittee on War Veterans|20.01.2026||0|0|
+1844|1771|4|PV|Podvıbor pro vìzeòství|Subcommittee on Penology|22.01.2026||0|0|
+1835|1769|4|PVEV|Podvıbor pro vnìjší ekonomické vztahy|Subcommittee on Foreign Economic Relations|22.01.2026||0|0|
+1849|1786|13|AM|Arménie|Armenia|02.02.2026||1000|0|
+1858|1786|13|CN|Èína|China|02.02.2026||1000|0|
+1868|1786|13|IT|Itálie|Italy|02.02.2026||1000|0|
+1793|1770|4|PVH|Podvıbor pro vodní hospodáøství|Subcommittee on Water Management|02.12.2025||0|0|
+1845|1786|13|ALB|Albánie|Albania|02.02.2026||1000|0|
+1846|1786|13|DZ|Alírsko|Algeria|02.02.2026||1000|0|
+1850|1786|13|AU, NZ|Austrálie, Novı Zéland|the Commonwealth of Australia, New Zeland|02.02.2026||1000|0|
+1813|1763|4|PAMOOPOVM|Podvıbor pro akvizice Ministerstva obrany, obrannı prùmysl a obchod s vojenskım materiálem|Subcommittee on Ministry of Defense Acquisitions, Defense Industry and Trade in Military Equipment|20.01.2026||0|0|
+1856|1786|13|CL|Chile|Chile|02.02.2026||1000|0|
+1807|1767|4|PDZ|Podvıbor pro duševní zdraví|Subcommittee on Mental Health|15.01.2026||0|0|
+1855|1786|13|ME|Èerná Hora|Montenegro|02.02.2026||1000|0|
+1851|1786|13|AZE|Ázerbajdán|Republic of Azerbaijan|02.02.2026||1000|0|
+1860|1786|13|PH|Filipíny|the Philippines|02.02.2026||1000|0|
 625|168|2|SKVOZ|Stálá komise pro kontrolu èinnosti Vojenského obranného zpravodajství|Permanent Commission for oversight of the Military Intelligence activities|18.07.2002|15.06.2006||0|
-1628||5|VládaÈR|Vláda Èeské republiky||17.12.2021|||1|
+1809|1767|4|PEZAIEZP|Podvıbor pro elektronizaci ve zdravotnictví, AI a evropskou zdravotní legislativu|Subcommittee on Healthcare Economy, Health Insurance and Directly Controlled Organizations|15.01.2026||0|0|
+1852|1786|13|BH|Bahrajn|Bahrain|02.02.2026||1000|0|
+1861|1786|13|FR|Francie|France|02.02.2026||1000|0|
+1810|1767|4|PLKPLLPPTZP|Podvıbor pro léèebné konopí, pøírodní látky, lékovou politiku, pøístrojovou techniku a zdravotnické prostøedky|Subcommittee on Medicinal Cannabis, Natural Substances, Drug Policy, Medical Devices and Equipment|15.01.2026||0|0|
+1840|1766|4|PMVS|Podvıbor pro modernizaci veøejné správy|Subcommittee on Public Administration Modernization|22.01.2026||0|0|
+1808|1767|4|PNPSPSPVPP|Podvıbor pro nelékaøská povolání, specializaèní a profesní vzdìlávání a práva pacientù|Subcommittee on Non&#8209;Medical Professions, Specialized and Professional Education, and Patients’ Rights|15.01.2026||0|0|
+1853|1786|13|BENELUX|Benelux|countries of BENELUX|02.02.2026||1000|0|
+1862|1786|13|GH|Ghana|Republic of Ghana|02.02.2026||1000|0|
+1870|1786|13|JP|Japonsko|Japan|02.02.2026||1000|0|
+1842|1756|4|POLPNM|Podvıbor pro ochranu lidskıch práv a národnostní menšiny|Subcommittee on Protection of Human Rights and National Minorities|20.01.2026||0|0|
+1854|1786|13|BH|Bosna a Hercegovina|Bosnia and Herzegovina|02.02.2026||1000|0|
+1863|1786|13|GE|Gruzie|Georgia|02.02.2026||1000|0|
+1873|1786|13|QA|Katar|Qatar|02.02.2026||1000|0|
+1628||5|VládaÈR|Vláda Èeské republiky||17.12.2021|15.12.2025|0|1|
+1889|1786|13|PT|Portugalsko|Portrugal|02.02.2026||1000|0|
+1822|1768|4|POZ|Podvıbor pro ochranu zvíøat|Subcommittee on Animal Protection|21.01.2026||0|0|
+1892|1786|13|MYA|Republika Myanmarskı svaz|Myanmar|02.02.2026||1000|0|
+1864|1786|13|IN|Indie|India|02.02.2026||1000|0|
+1874|1786|13|KZ|Kazachstán|Kazakhstan|02.02.2026||1000|0|
 519||68|SD¼|Strana demokratickej ¾avice||07.06.1990|04.06.1992|290||
+1818|1765|4|PRŠCUI|Podvıbor pro regionální školství, celoivotní uèení a inkluzi|Subcommittee on Regional Education, Lifelong Learning and inclusion|21.01.2026||0|0|
+1875|1786|13|KR|Korejská republika|the Republic of Korea|02.02.2026||1000|0|
+1893|1786|13|RO|Rumunsko|Romania|02.02.2026||1000|0|
 537||68|SD¼|SD¼||06.06.1992|31.12.1992|190||
+1804|1764|4|PSLOZPSZP|Podvıbor pro sociální sluby, osoby zdravotnì postiené a sociálnì zdravotní pomezí|Subcommittee on Social Services, Persons with Disabilities and the Social&#8209;Health Interface|15.01.2026||0|0|
+1904|1786|13|PSRB|Srbsko|Serbia|02.02.2026||1000|0|
+1812|1767|4|PUMMKZZS|Podvıbor pro urgentní medicínu, medicínu katastrof a zdravotnické záchranné sluby|Subcommittee on Emergency Medicine, Disaster Medicine and Medical Rescue Services|15.01.2026||0|0|
+1903|1786|13|PDE|Nìmecko|Germany|02.02.2026||1000|0|
+1906|1786|13|CH|Švıcarsko|Switzerland|02.02.2026||1000|0|
+1811|1767|4|PVZPEVV|Podvıbor pro veøejné zdravotnictví, prevenci, epidemiologii, vìdu a vızkum|Subcommittee on Public Health, Prevention, Epidemiology, Science and Research|15.01.2026||0|0|
 1739||79|SE15|Senát||21.09.2024|||0|
+1908|1786|13|TZ|Tanzanie|Tanzania|02.02.2026||1000|0|
+1463|1313|4|PKSR|Podvıbor pro krizové situace v rodinách|Subcommittee on Family Crisis Situations|10.05.2018|20.02.2019|1000|0|
+1717|1559|4|PPD|Podvıbor pro podporu demokracie a lidskıch práv v zahranièí|Subcommittee on the Promotion of Democracy and Human Rights Abroad|25.11.2022|08.10.2025|1000|0|
+1917|1786|13|IE|Irsko|Ireland|02.02.2026||1000|0|
+1878|1786|13|LT|Litva|Lithuania|02.02.2026||1000|0|
+1911|1786|13|UA|Ukrajina|Ukraine|02.02.2026||1000|0|
+1776|174|2|SKHH|Stálá komise pro hybridní hrozby|Permanent Commission on Hybrid Threats|11.11.2025||0|0|
+1782|174|2|SKVZ|Stálá komise pro kontrolu èinnosti Vojenského zpravodajství|Permanent Commission on Oversight over the work of Military Intelligence|11.11.2025||0|0|
+1711|1574|13|BENELUX|Benelux|countries of BENELUX|27.10.2022|08.10.2025|1000|0|
+1698|1574|13|BH|Bosna a Hercegovina|Bosnia and Herzegovina|21.02.2022|08.10.2025|1000|0|
+1859|1786|13|EE|Estonsko|Estonia|02.02.2026||1000|0|
+1718|1574|13|IN|Indie|India|01.02.2023|08.10.2025|1000|0|
+1869|1786|13|ISR|Izrael|State of Israel|02.02.2026||1000|0|
+1779|174|2|SKCEÚ|Stálá komise pro kontrolu poskytnutí údajù z centrální evidence úètù|Permanent Commission on Data Delivery by the Central Evidence of Accounts|11.11.2025||0|0|
+1731|1574|13|CY|Kypr|Republic of Cyprus|03.10.2023|08.10.2025|1000|0|
+1880|1786|13|H|Maïarsko|Hungary|02.02.2026||1000|0|
+24|165|2|SKVY|Stálá komise pro státní vyznamenání|Permanent Commission on State Decorations|07.02.1995|06.06.1996|1000|0|
+1322|172|2|SKÚÈR|Stálá komise pro Ústavu Èeské republiky|Permanent Commission on the Constitution of the Czech Republic|28.11.2017|20.10.2021|1000|0|
+1572|173|2|SKPKPS|Stálá komise pro práci Kanceláøe Poslanecké snìmovny|Permanent Commission on the Activities of the Office of the Chamber of Deputies|23.11.2021|08.10.2025|1000|0|
+1074|975|13|CH|Švıcarsko|Switzerland|02.11.2011|28.08.2013|1000|0|
+1879|1786|13|LV|Lotyšsko|Latvia|02.02.2026||1000|0|
+1881|1786|13|MA|Marocké království|Kingdom of Morocco|02.02.2026||1000|0|
+1888|1786|13|PL|Polsko|Poland|02.02.2026||1000|0|
+1900|1786|13|ESP|Španìlsko|Spain|02.02.2026||1000|0|
+1902|1786|13|USA|Spojené státy americké|United States of America|02.02.2026||1000|0|
+1710|1574|13|SY|Sırie|Syria|18.07.2022|08.10.2025|1000|0|
+1573|173|2|SKHH|Stálá komise pro hybridní hrozby|Permanent Commission on Hybrid Threats|23.11.2021|08.10.2025|1000|0|
+1882|1786|13|MX|Mexiko|the United Mexican States|02.02.2026||1000|0|
+1918|1786|13|GR|Øecko|Greece|04.02.2026||1000|0|
+679|168|2|SKZSSB|Stálá komise Poslanecké snìmovny pro sledování procesu zpøístupnìní svazkù vzniklıch èinností bıvalé STB|Permanent Commission on Supervision of the Disclosure of the State Security Files|27.11.2002|15.06.2006|1000|0|
+1883|1786|13|MD|Moldavsko|Moldova|02.02.2026||1000|0|
+1897|1786|13|XSS|Severské státy (Dánsko, Finsko, Norsko, Švédsko, Island)|Nordic States (Denmark, Finland, Norway, Sweeden, Iceland)|02.02.2026||1000|0|
+1847|1786|13|ID|Indonésie|Indonesia|05.02.2026||1000|0|
+1563|173|2|SKBIS|Stálá komise pro kontrolu èinnosti Bezpeènostní informaèní sluby|Permanent Commission on Oversight over the work of the Security Information Service|23.11.2021|08.10.2025|1000|0|
+1279|171|2|SKFAU|Stálá komise pro kontrolu èinnosti Finanèního analytického úøadu|Permanent Commission on Activities of the Financial Analytical Office|02.10.2015|26.10.2017|1000|0|
+1329|172|2|SKFAÚ|Stálá komise pro kontrolu èinnosti Finanèního analytického úøadu|Permanent Commission on Activities of the Financial Analytical Office|28.11.2017|20.10.2021|1000|0|
+1884|1786|13|MN|Mongolsko|Mongolia|02.02.2026||1000|0|
+1076|170|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù|Permanent Commission on Activities of the General Inspection of Security Forces|01.01.2012|28.08.2013|1000|0|
+1136|171|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù|Permanent Commission on Activities of the General Inspection of Security Forces|10.12.2013|26.10.2017|1000|0|
+1330|172|2|SKNÚKIB|Stálá komise pro kontrolu èinnosti Národního úøadu pro kybernetickou a informaèní bezpeènost|Permanent Commission on the Activities of the National Cyber and Information Security Agency|28.11.2017|20.10.2021|1000|0|
+1567|173|2|SKNÚKIB|Stálá komise pro kontrolu èinnosti Národního úøadu pro kybernetickou a informaèní bezpeènost|Permanent Commission on the Activities of the National Cyber and Information Security Agency|23.11.2021|08.10.2025|1000|0|
+1375|172|2|SKÚZSI|Stálá komise pro kontrolu èinnosti Úøadu pro zahranièní styky a informace|Permanent Commission on the Activities of the Office for Foreign Relations and Information|17.01.2018|20.10.2021|1000|0|
+1568|173|2|SKÚZSI|Stálá komise pro kontrolu èinnosti Úøadu pro zahranièní styky a informace|Permanent Commission on the Activities of the Office for Foreign Relations and Information|23.11.2021|08.10.2025|1000|0|
+1562|173|2|SKCEÚ|Stálá komise pro kontrolu poskytnutí údajù z centrální evidence úètù|Permanent Commission on Data Delivery by the Central Evidence of Accounts|23.11.2021|08.10.2025|1000|0|
+972|170|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Permanent Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|09.07.2010|28.08.2013|1000|0|
+1561|173|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Permanent Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|23.11.2021|08.10.2025|1000|0|
 1709|1574|13|BE, LU|Belgie, Lucembursko|Belgium, Luxembourg|23.05.2022|27.10.2022||0|
 1712|1402|114|II_OL|II. oddìlení legislativní||01.11.2022|||0|
+1865||6|ODS-KDS|Kolalice ODS-KDS||01.01.1992||||
+1919||6|HSD-SMS|Hnutí za samosprávnou demkoracii - Spoleènost pro Moravu a Slezsko||01.01.1990||||
 1390|1315|4|PVS|Podvıbor pro veøejnou správu|Subcommittee on Public Administration|31.01.2018|20.10.2021||0|
 1368|1312|4|POKBP|Podvıbor pro obrannou, kybernetickou a bezpeènostní politiku a strategické koncepce ÈR|Subcommittee on Defence, Cybernetic and Security Policy and Strategic Conceptions for CR|11.01.2018|20.10.2021||0|
 1344|1309|4|PITDE|Podvıbor pro ICT, telekomunikace a digitální ekonomiku|Subcommittee on ICT, Telecommunication and Digital Economy|13.12.2017|20.10.2021||0|
@@ -1428,19 +1539,22 @@
 1713|1405|114|PRM|Oddìlení médií a PR||01.11.2022|||0|
 1714|1406|114|OMO|Oddìlení meziparlamentních organizací||01.11.2022|||0|
 1715|1408|112|OD|Oddìlení digitalizace a ochrany archivních a knihovních fondù||01.11.2022|||0|
+1866||6|LSU|Liberálnì sociální unie||01.01.1990||||
 1725||119|DKNSA|Dozorèí komise Národní sportovní agentury||01.04.2023|||1|
 1024||15|VF|Vinaøskı fond||10.03.2002|||0|
+1867||6|LB|Koalice Levı blok||01.01.1990||||
 1728|1405|114|OM|Oddìlení marketingu||01.10.2023|||0|
 1729|1721|114|OM|Oddìlení provozu gastronomickıch zaøízení||01.10.2023|||0|
+1890|1786|13|A|Rakousko|Austria|02.02.2026||1000|0|
+1871|1786|13|PK|Pákistán||26.02.2026||1000|0|
 173||11|PSP9|Poslanecká snìmovna|Chamber of Deputies|09.10.2021|08.10.2025||0|
-1750|174|1|ANO2011|Poslaneckı klub ANO 2011||08.10.2025||1||
-1749|174|1|MS|Poslaneckı klub Motoristé sobì||07.10.2025||7||
-174||11|PSP10|Poslanecká snìmovna||04.10.2025||174||
-1717|1559|4|PPD|Podvıbor pro podporu demokracie a lidskıch práv v zahranièí||25.11.2022|08.10.2025||0|
+1750|174|1|ANO2011|Poslaneckı klub ANO 2011|Political group ANO 2011|08.10.2025||1||
+1749|174|1|MS|Poslaneckı klub Motoristé sobì|Political group Motorists for Themselves|07.10.2025||7||
 1720|173|1|Nezaøaz|Nezaøazení||21.02.2023|08.10.2025|10000|0|
-1732|1574|13|DZ|Alírsko||14.11.2023|08.10.2025||0|
-1726|1574|13|NG|Nigerijská federativní republika||11.09.2023|08.10.2025||0|
 1535|173|1|Piráti|Poslaneckı klub Èeské pirátské strany|Political group Czech Pirate Party|10.10.2021|08.10.2025||0|
+174||11|PSP10|Poslanecká snìmovna|Chamber of Deputies|04.10.2025||174||
+1732|1574|13|DZ|Alírsko|Algeria|14.11.2023|08.10.2025|1000|0|
+1726|1574|13|NG|Nigerijská federativní republika|Nigeria|11.09.2023|08.10.2025|1000|0|
 1536|173|1|STAN|Poslaneckı klub Starostové a nezávislí|Political group Mayors and Independents|15.10.2021|08.10.2025||0|
 1537|173|1|ANO|Poslaneckı klub ANO 2011|Political group ANO 2011|12.10.2021|08.10.2025||0|
 1538|173|1|ODS|Poslaneckı klub Obèanské demokratické strany|Political group Civic Democratic Party|12.10.2021|08.10.2025||0|
@@ -1453,7 +1567,6 @@
 1545|173|3|RV|Rozpoètovı vıbor|Committee on the Budget|10.11.2021|08.10.2025||0|
 1546|173|3|KV|Kontrolní vıbor|Committee on Budgetary Control|10.11.2021|08.10.2025||0|
 1547|173|3|ORGV|Organizaèní vıbor|Steering Committee|10.11.2021|08.10.2025||0|
-1710|1574|13|SY|Sırie||18.07.2022|08.10.2025||0|
 1548|173|3|VMZ|Vıbor pro mediální záleitosti|Committee on Media Affairs|10.11.2021|08.10.2025||0|
 1549|173|3|VEZ|Vıbor pro evropské záleitosti|Committee on European Affairs|10.11.2021|08.10.2025||0|
 1550|173|3|HV|Hospodáøskı vıbor|Committee on Economic Affairs|10.11.2021|08.10.2025||0|
@@ -1467,19 +1580,13 @@
 1558|173|3|VP|Vıbor pro ivotní prostøedí|Committee on Environment|10.11.2021|08.10.2025||0|
 1559|173|3|ZAV|Zahranièní vıbor|Committee on Foreign Affairs|10.11.2021|08.10.2025||0|
 1560|173|3|ZEV|Zemìdìlskı vıbor|Committee on Agriculture|10.11.2021|08.10.2025||0|
-1561|173|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Standing Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|23.11.2021|08.10.2025||0|
-1562|173|2|SKCEÚ|Stálá komise pro kontrolu poskytnutí údajù z centrální evidence úètù|Standing Commission on Data Delivery by the Central Evidence of Accounts|23.11.2021|08.10.2025||0|
-1563|173|2|SKBIS|Stálá komise pro kontrolu èinnosti Bezpeènostní informaèní sluby|Standing Commission on Oversight over the work of the Security Information Service|23.11.2021|08.10.2025||0|
-1564|173|2|SKNBÚ|Stálá komise pro kontrolu èinnosti Národního bezpeènostního úøadu|Standing Commission on Oversight over the work of the National Security Office|23.11.2021|08.10.2025||0|
-1565|173|2|SKVZ|Stálá komise pro kontrolu èinnosti Vojenského zpravodajství|Standing Commission on Oversight over the work of Military Intelligence|23.11.2021|08.10.2025||0|
-1566|173|2|SKFAÚ|Stálá komise pro kontrolu èinnosti Finanèního analytického úøadu|Standing Commission on Activities of the Financial Analytical Office|23.11.2021|08.10.2025||0|
-1567|173|2|SKNÚKIB|Stálá komise pro kontrolu èinnosti Národního úøadu pro kybernetickou a informaèní bezpeènost|Standing Commission on the Activities of the National Cyber and Information Security Agency|23.11.2021|08.10.2025||0|
-1568|173|2|SKÚZSI|Stálá komise pro kontrolu èinnosti Úøadu pro zahranièní styky a informace|Standing Commission on the Activities of the Office for Foreign Relations and Information|23.11.2021|08.10.2025||0|
-1569|173|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù|Standing Commission on Activities of the General Inspection of Security Forces|23.11.2021|08.10.2025||0|
-1570|173|2|SKRRP|Stálá komise pro rodinu a rovné pøíleitosti|Standing Commission on Family Issues, Equal Opportunities and Minorities|23.11.2021|08.10.2025||0|
-1571|173|2|SKÚÈR|Stálá komise pro Ústavu Èeské republiky|Standing Commission on the Constitution of the Czech Republic|23.11.2021|08.10.2025||0|
-1572|173|2|SKPKPS|Stálá komise pro práci Kanceláøe Poslanecké snìmovny|Standing Commission on the Activities of the Office of the Chamber of Deputies|23.11.2021|08.10.2025||0|
-1573|173|2|SKHH|Stálá komise pro hybridní hrozby|Standing Commission on Hybrid Threats|23.11.2021|08.10.2025||0|
+1564|173|2|SKNBÚ|Stálá komise pro kontrolu èinnosti Národního bezpeènostního úøadu|Permanent Commission on Oversight over the work of the National Security Office|23.11.2021|08.10.2025|1000|0|
+1565|173|2|SKVZ|Stálá komise pro kontrolu èinnosti Vojenského zpravodajství|Permanent Commission on Oversight over the work of Military Intelligence|23.11.2021|08.10.2025|1000|0|
+1571|173|2|SKÚÈR|Stálá komise pro Ústavu Èeské republiky|Permanent  Commission on the Constitution of the Czech Republic|23.11.2021|08.10.2025|1000|0|
+1566|173|2|SKFAÚ|Stálá komise pro kontrolu èinnosti Finanèního analytického úøadu|Permanent Commission on Activities of the Financial Analytical Office|23.11.2021|08.10.2025|1000|0|
+1569|173|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù|Permanent Commission on Activities of the General Inspection of Security Forces|23.11.2021|08.10.2025|1000|0|
+1872|1786|13|CA|Kanada||02.02.2026||1000|0|
+1876|1786|13|KE|Keòa||27.02.2026||1000|0|
 1574|173|7|SDMPU|Stálá delegace Parlamentu do Meziparlamentní unie|Permanent Delegation to the Inter-Parliamentary Union|23.11.2021|08.10.2025||0|
 1575|173|7|SDNATO|Stálá delegace Parlamentu do Parlamentního shromádìní NATO|Permanent Delegation to the NATO Parliamentary Assembly|23.11.2021|08.10.2025||1|
 1576|173|7|SDOBSE|Stálá delegace Parlamentu do Parlamentního shromádìní Organizace pro bezpeènost a spolupráci v Evropì|Permanent Delegation to the Parliamentary Assembly of the OSCE|23.11.2021|08.10.2025||1|
@@ -1571,21 +1678,19 @@
 1671|1574|13|SA|Saudská Arábie|Kingdom of Saudi Arabia|21.02.2022|08.10.2025||0|
 1672|1574|13|MK|Severní Makedonie|Republic of North Macedonia|21.02.2022|08.10.2025||0|
 1673|1574|13|NS|Severské státy|Nordic States|21.02.2022|08.10.2025||0|
-1711|1574|13|BENELUX|Benelux||27.10.2022|08.10.2025||0|
 1674|1574|13|SK|Slovensko|Slovakia|21.02.2022|08.10.2025||0|
 1675|1574|13|SVN|Slovinsko|Republic of Slovenia|21.02.2022|08.10.2025||0|
 1676|1574|13|ARE|Spojené arabské emiráty|United Arab Emirates|21.02.2022|08.10.2025||0|
 1677|1574|13|DE|Spolková republika Nìmecko|the Federal Republic of Germany|21.02.2022|08.10.2025||0|
 1678|1574|13|CH|Švıcarsko|Switzerland|21.02.2022|08.10.2025||0|
 1679|1574|13|THA|Thajské království|Kingdom of Thailand|21.02.2022|08.10.2025||0|
-1747|174|1|TOP09|Poslaneckı klub TOP 09||07.10.2025||8||
+1877|1786|13|BR|Brazílie||27.02.2026||1000|0|
 1680|1574|13|UA|Ukrajina|Ukraine|21.02.2022|08.10.2025||0|
 1681|1574|13|GBR|Velká Británie|Great Britain|21.02.2022|08.10.2025||0|
 1682|1574|13|VN|Vietnam|Socialist Republic of Vietnam|21.02.2022|08.10.2025||0|
 1683|1574|13|AL|Albánská republika|Republic of Albania|21.02.2022|08.10.2025||0|
 1684|1574|13|BH|Bahrajnské království|Kingdom of Bahrain|21.02.2022|08.10.2025||0|
 1685|1574|13|IQ|Irácká republika|Republic of Iraq|21.02.2022|08.10.2025||0|
-1767|174|3|VZ|Vıbor pro zdravotnictví||05.11.2025||0|0|
 1686|1574|13|JO|Jordánské hášimovské království|Hashemite Kingdom of Jordan|21.02.2022|08.10.2025||0|
 1687|1574|13|PK|Pákistánská islámská republika|Islamic Republic of Pakistan|21.02.2022|08.10.2025||0|
 1688|1574|13|RS|Srbská republika|Republic of Serbia|21.02.2022|08.10.2025||0|
@@ -1598,7 +1703,6 @@
 1695|1574|13|PH|Filipínská republika|Republic of the Philippines|21.02.2022|08.10.2025||0|
 1696|1574|13|ME|Èerná Hora|Montenegro|21.02.2022|08.10.2025||0|
 1697|1574|13|RW|Rwandská republika|Republic of Rwanda|21.02.2022|08.10.2025||0|
-1698|1574|13|BH|Bosna a Hercegovina||21.02.2022|08.10.2025||0|
 1699|1553|4|PAMO|Podvıbor pro akvizice Ministerstva obrany, obchod s vojenskım materiálem a inovace AÈR|Subcommittee on Defence Acquisitions, Military Equipment Trade and Innovation of the Army of the Czech Republic|08.03.2022|08.10.2025||0|
 1700|1553|4|POKBP|Podvıbor pro obrannou, kybernetickou a bezpeènostní politiku a strategické koncepce ÈR|Subcommittee on Defence, Cybernetic and Security Policy and Strategic Conceptions for CR|08.03.2022|08.10.2025||0|
 1701|1553|4|PVV|Podvıbor pro váleèné veterány|Subcommittee on War Veterans|08.03.2022|08.10.2025||0|
@@ -1617,45 +1721,58 @@
 1736|1574|13|PY|Paraguyaská republika|Republic of Paraguay|28.03.2024|08.10.2025||0|
 1737|1574|13|AR|Argentinská republika|Argentine Republic|20.06.2024|08.10.2025||0|
 1738|173|2|VKFF|Vyšetøovací komise ke støelbì na Filozofické fakultì Univerzity Karlovy dne 21. 12. 2023||26.06.2024|08.10.2025||0|
-1751|174|1|ODS|Poslaneckı klub ODS||08.10.2025||2||
-1748|174|1|KDU-ÈSL|Poslaneckı klub KDU-ÈSL||07.10.2025||5||
-1746|174|1|SPD|Poslaneckı klub Svoboda a pøímá demokracie||07.10.2025||6||
-1752|174|1|STAN|Poslaneckı klub Starostové a nezávislí||10.10.2025||3||
+1751|174|1|ODS|Poslaneckı klub ODS|Political group Civic Democratic Party|08.10.2025||2||
+1748|174|1|KDU-ÈSL|Poslaneckı klub KDU-ÈSL|Political group Christian and Democratic Union - Czechoslovak People's Party|07.10.2025||5||
 1753|174|116|VK-X|VK (extra)||01.01.1993|08.10.2025||0|
-1745|174|1|Piráti|Poslaneckı klub Piráti||05.10.2025||4|0|
-1754|174|2|VK|Volební komise||29.10.2025||0|0|
-1755|174|3|MIV|Mandátovı a imunitní vıbor||03.11.2025||0|0|
-1756|174|3|PV|Petièní vıbor||05.11.2025||0|0|
-1757|174|3|KV|Kontrolní vıbor||05.11.2025||0|0|
-1758||3|ORGV|Organizaèní vıbor||05.11.2025||0|0|
-1759|174|3|VMZ|Vıbor pro mediální záleitosti||05.11.2025||0|0|
-1760|174|3|VEZ|Vıbor pro evropské záleitosti||05.11.2025||0|0|
-1761|174|3|HV|Hospodáøskı vıbor||05.11.2025||0|0|
-1762|174|3|ÚPV|Ústavnì-právní vıbor||05.11.2025||0|0|
-1763|174|3|VO|Vıbor pro obranu||05.11.2025||0|0|
-1764|174|3|VSP|Vıbor pro sociální politiku||05.11.2025||0|0|
-1765|174|3|VVVMS|Vıbor pro vìdu, vzdìlávání, mláde a sport||05.11.2025||0|0|
-1766|174|3|VSR|Vıbor pro veøejnou správu a regionální rozvoj||05.11.2025||0|0|
-1768|174|3|VP|Vıbor pro ivotní prostøedí||05.11.2025||0|0|
-1769|174|3|ZAV|Zahranièní vıbor||05.11.2025||0|0|
-1770|174|3|ZEV|Zemìdìlskı vıbor||05.11.2025||0|0|
-1771|174|3|VB|Vıbor pro bezpeènost||05.11.2025||0|0|
-1772|174|3|RV|Rozpoètovı vıbor||05.11.2025||0|0|
-1773|174|2|SKKPS|Stálá komise pro práci Kanceláøe Poslanecké snìmovny||11.11.2025||0|0|
-1774|174|2|SKRRP|Stálá komise pro rodinu a rovné pøíleitosti||11.11.2025||0|0|
-1775|174|2|SKÚPP|Stálá komise pro Ústavu Èeské republiky a parlamentní procedury||11.11.2025||0|0|
-1776|174|2|SKHH|Stálá komise pro hybridní hrozby||11.11.2025||0|0|
-1777|174|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù||11.11.2025||0|0|
-1778|174|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací||11.11.2025||0|0|
-1779|174|2|SKCEÚ|Stálá komise pro kontrolu poskytnutí údajù z centrální evidence úètù||11.11.2025||0|0|
-1780|174|2|SKBIS|Stálá komise pro kontrolu èinnosti Bezpeènostní informaèní sluby||11.11.2025||0|0|
-1781|174|2|SKNBÚ|Stálá komise pro kontrolu èinnosti Národního bezpeènostního úøadu||11.11.2025||0|0|
-1782|174|2|SKVZ|Stálá komise pro kontrolu èinnosti Vojenského zpravodajství||11.11.2025||0|0|
-1783|174|2|SKFAÚ|Stálá komise pro kontrolu èinnosti Finanèního analytického úøadu||11.11.2025||0|0|
-1784|174|2|SKNÚKIB|Stálá komise pro kontrolu èinnosti Národního úøadu pro kybernetickou a informaèní bezpeènost||11.11.2025||0|0|
-1785|174|2|SKÚZSI|Stálá komise pro kontrolu èinnosti Úøadu pro zahranièní styky a informace||11.11.2025||0|0|
-1787|174|7|SDNATO|Stálá delegace Parlamentu do Parlamentního shromádìní NATO||14.11.2025||0|0|
-1788|174|7|SDOBSE|Stálá delegace Parlamentu do Parlamentního shromádìní Organizace pro bezpeènost a spolupráci v Evropì||14.11.2025||0|0|
-1786|174|7|SDMPU|Stálá delegace Parlamentu do Meziparlamentní unie||14.11.2025||0|0|
-1789|174|7|SDPSRE|Stálá delegace Parlamentu do Parlamentního shromádìní Rady Evropy||14.11.2025||0|0|
-1790|174|7|SDPDSEI|Stálá delegace Parlamentu do Parlamentní dimenze Støedoevropské iniciativy||14.11.2025||0|1|
+1752|174|1|STAN|Poslaneckı klub Starostové a nezávislí|Political group Mayors and Independents|10.10.2025||3||
+1746|174|1|SPD|Poslaneckı klub Svoboda a pøímá demokracie|Political group Freedom and Direct Democracy|07.10.2025||6||
+1758|174|3|ORGV|Organizaèní vıbor|Steering Committee|05.11.2025||0|0|
+1745|174|1|Piráti|Poslaneckı klub Piráti|Political group Pirates|05.10.2025||4|0|
+1755|174|3|MIV|Mandátovı a imunitní vıbor|Mandate and Immunity Committee|03.11.2025||0|0|
+1759|174|3|VMZ|Vıbor pro mediální záleitosti|Committee on Media Affairs|05.11.2025||0|0|
+1754|174|2|VK|Volební komise|Electoral Commission of the Chamber of Deputies|29.10.2025||0|0|
+1898|1786|13|SK|Slovensko|Slovakia|02.02.2026||1000|0|
+1762|174|3|ÚPV|Ústavnì-právní vıbor|Committee on Constitutional and Legal Affairs|05.11.2025||0|0|
+1760|174|3|VEZ|Vıbor pro evropské záleitosti|Committee on European Affairs|05.11.2025||0|0|
+1763|174|3|VO|Vıbor pro obranu|Committee on Defence|05.11.2025||0|0|
+1764|174|3|VSP|Vıbor pro sociální politiku|Committee on Social Policy|05.11.2025||0|0|
+1899|1786|13|SVN|Slovinsko|Slovenia|02.02.2026||1000|0|
+1768|174|3|VP|Vıbor pro ivotní prostøedí|Committee on Environment|05.11.2025||0|0|
+1769|174|3|ZAV|Zahranièní vıbor|Committee on Foreign Affairs|05.11.2025||0|0|
+1770|174|3|ZEV|Zemìdìlskı vıbor|Committee on Agriculture|05.11.2025||0|0|
+1774|174|2|SKRRP|Stálá komise pro rodinu a rovné pøíleitosti|Permanent Commission on Family Issues and on Equal Opportunities|11.11.2025||0|0|
+1780|174|2|SKBIS|Stálá komise pro kontrolu èinnosti Bezpeènostní informaèní sluby|Permanent Commission on Oversight over the work of the Security Information Service|11.11.2025||0|0|
+1781|174|2|SKNBÚ|Stálá komise pro kontrolu èinnosti Národního bezpeènostního úøadu|Permanent Commission on Oversight over the work of the National Security Office|11.11.2025||0|0|
+1778|174|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Permanent Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|11.11.2025||0|0|
+1775|174|2|SKÚPP|Stálá komise pro Ústavu Èeské republiky a parlamentní procedury|Permanent Commission on the Constitution of the Czech Republic and Parliamentary Procedures|11.11.2025||0|0|
+1783|174|2|SKFAÚ|Stálá komise pro kontrolu èinnosti Finanèního analytického úøadu|Permanent Commission on Activities of the Financial Analytical Office|11.11.2025||0|0|
+1901|1786|13|ARE|Spojené arabské emiráty|United Arab Emirates|02.02.2026||1000|0|
+1787|174|7|SDNATO|Stálá delegace Parlamentu do Parlamentního shromádìní NATO|Permanent Delegation to the NATO Parliamentary Assembly|14.11.2025||0|1|
+1788|174|7|SDOBSE|Stálá delegace Parlamentu do Parlamentního shromádìní Organizace pro bezpeènost a spolupráci v Evropì|Permanent Delegation to the Parliamentary Assembly of the OSCE|14.11.2025||0|1|
+1772|174|3|RV|Rozpoètovı vıbor|Committee on the Budget|05.11.2025||0|0|
+1761|174|3|HV|Hospodáøskı vıbor|Committee on Economic Affairs|05.11.2025||0|0|
+1789|174|7|SDPSRE|Stálá delegace Parlamentu do Parlamentního shromádìní Rady Evropy|Permanent Delegation to the Parliamentary Assembly of the Council of Europe|14.11.2025||0|1|
+1757|174|3|KV|Kontrolní vıbor|Committee on Budgetary Control|05.11.2025||0|0|
+1756|174|3|PV|Petièní vıbor|Committee on Petitions|05.11.2025||0|0|
+1771|174|3|VB|Vıbor pro bezpeènost|Committee on Security|05.11.2025||0|0|
+1765|174|3|VVVMS|Vıbor pro vìdu, vzdìlávání, mláde a sport|Committee on Science, Education, Youth and Sport|05.11.2025||0|0|
+1766|174|3|VSR|Vıbor pro veøejnou správu a regionální rozvoj|Committee on Public Administration and Regional Development|05.11.2025||0|0|
+1767|174|3|VZ|Vıbor pro zdravotnictví|Committee on Health Care|05.11.2025||0|0|
+1520|172|2|SKHH|Stálá komise pro hybridní hrozby|Permanent Commission on Hybrid Threats|16.06.2020|20.10.2021|1000|0|
+1777|174|2|SKGIBS|Stálá komise pro kontrolu èinnosti Generální inspekce bezpeènostních sborù|Permanent Commission on Activities of the General Inspection of Security Forces|11.11.2025||0|0|
+1784|174|2|SKNÚKIB|Stálá komise pro kontrolu èinnosti Národního úøadu pro kybernetickou a informaèní bezpeènost|Permanent Commission on the Activities of the National Cyber and Information Security Agency|11.11.2025||0|0|
+1785|174|2|SKÚZSI|Stálá komise pro kontrolu èinnosti Úøadu pro zahranièní styky a informace|Permanent Commission on the Activities of the Office for Foreign Relations and Information|11.11.2025||0|0|
+1570|173|2|SKRRP|Stálá komise pro rodinu a rovné pøíleitosti|Permanent Commission on Family Issues and on Equal Opportunities|23.11.2021|08.10.2025|1000|0|
+1786|174|7|SDMPU|Stálá delegace Parlamentu do Meziparlamentní unie|Permanent Delegation to the Inter-Parliamentary Union|14.11.2025||0|0|
+1790|174|7|SDPDSEI|Stálá delegace Parlamentu do Parlamentní dimenze Støedoevropské iniciativy|Permanent Delegation to the Parliamentary Dimension of the Central European Initiative|14.11.2025||0|1|
+1747|174|1|TOP09|Poslaneckı klub TOP 09|Political group TOP 09|07.10.2025||8||
+1791|1770|4|PMRVZC|Podvıbor pro myslivost, rybáøství, vèelaøství, zahrádkáøství a chovatelství|Subcommittee on Gamekeeping, Fisheries, Apiculture, Gardening and Animal Husbandry|02.12.2025||0|0|
+1796|1761|4|PD|Podvıbor pro dopravu|Subcommittee on Transportation|04.12.2025||0|0|
+1798|1761|4|POS|Podvıbor pro ochranu spotøebitele|Subcommittee on Consumer Protection|04.12.2025||0|0|
+1795|1770|4|PRV|Podvıbor pro rozvoj venkova|Subcommittee on Rural Development|02.12.2025||0|0|
+1773|174|2|SKPKPS|Stálá komise pro práci Kanceláøe Poslanecké snìmovny|Permanent Commission on the Activities of the Office of the Chamber of Deputies|11.11.2025||0|0|
+1905|1786|13|OMN|Sultanát Omán|Sultanate of Oman|02.02.2026||1000|0|
+1797|1761|4|PE|Podvıbor pro energetiku|Subcommittee on Power Engineering|04.12.2025||0|0|
+1801|1761|4|PSAVIPP|Podvıbor pro startupy, aplikovanı vızkum, inovace a podnikatelské prostøedí|Subcommittee on Startups, Applied Research, Innovation and the Business Environment|04.12.2025||0|0|
+1800|1761|4|PLK|Podvıbor pro letectví a kosmonautiku|Subcommittee on Aviation and Astronautics|04.12.2025||0|0|
+1799|1761|4|PICTAIDEK|Podvıbor pro ICT, AI, digitální ekonomiku a kryptoaktiva|Subcommittee on ICT, AI, Digital Economy and Crypto Assets|04.12.2025||0|0|

@@ -20,7 +20,7 @@ candidates <- readRDS(here::here("psp/data/candidates.rds")) |>
   mutate(
     prefhl = paste0("<div>", format(POCHLASU, big.mark = " "), "<small> (", POCPROC, " %)</small></div>")
     ) |>
-  select(JMENO, PRIJMENI, VEK, POVOLANI, PSTRANA, since, until, prefhl, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, state) |>
+  select(JMENO, PRIJMENI, VEK, POVOLANI, PSTRANA, since, until, prefhl, VOLKRAJ, NAZVOLKRAJ, KSTRANA, NAZ_STR, state, PRIJMENI_new) |>
   left_join(parties, by = "PSTRANA") |>
   select(-c(PSTRANA, NAZEV_STRP))
 
@@ -72,9 +72,29 @@ candidate_table <- reactable(
   shared_candidates,
   columns = list(
     JMENO = colDef(name = "Jméno"),
-    PRIJMENI = colDef(name = "Příjmení"),
+    
+    PRIJMENI = colDef(
+      name = "Příjmení",
+      html = TRUE,
+      # show hover with new surname
+      cell = JS(" 
+        function(cellInfo) {
+          var Name_old = cellInfo.value;
+          var Name_new = cellInfo.row['PRIJMENI_new'];
+
+          if (Name_new) {
+            // Return the styled HTML
+            return '<span title=\"Nově: ' + Name_new + '\" style=\"cursor: help; text-decoration: underline dotted; text-decoration-color: #888;\">' + Name_old + '</span>';
+          } else {
+            // Return plain text
+            return Name_old;
+          }
+        }
+      ")
+    ),
+    
     VEK = colDef(name = "Věk", width = 45),
-    POVOLANI = colDef(name = "Povolání", width = 400),
+    POVOLANI = colDef(name = "Povolání", minWidth = 400),
     ZKRATKAP8 = colDef(name = "Pol. přísl.", width = 100),
     prefhl = colDef(name = "Pref. hl.", width = 130, html = TRUE),
     since = colDef(name = "Mandát od", cell = cz_date, width = 100),
@@ -83,12 +103,15 @@ candidate_table <- reactable(
     NAZVOLKRAJ = colDef(show = FALSE),
     KSTRANA = colDef(show = FALSE),
     NAZ_STR = colDef(show = FALSE),
+    PRIJMENI_new = colDef(show = FALSE),
     state = colDef(show = FALSE)
   ),
   pagination = FALSE,
   highlight = TRUE,
   bordered = TRUE,
-#  compact = TRUE,
+  language = reactableLang(
+    noData = "Kandidátce nebyl přidělen žádný mandát."
+  ),
   rowStyle = JS("
     function(rowInfo) {
       if (rowInfo.row.state == 11) {

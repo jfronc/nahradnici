@@ -33,20 +33,33 @@ zarazeni %<>% filter(org_id == 174) %>% # PSP10
     until = as.Date(until),
     narozeni = na_if(narozeni, as.Date("1900-01-01")),
     VEK = year(as.period(interval(start = narozeni, end = as.Date("2025-10-04"))))
-  )
+  ) %>%
+  select(JMENO, PRIJMENI, VEK, since, until)
 
 ppl <- readRDS(here::here("psp/data/ppl.rds"))
 
+# MPs who don't match exactly
 symdiff(
   filter(zarazeni, since == "2025-10-04") %>% select(JMENO, PRIJMENI, VEK),
   filter(ppl, !is.na(PORADIMAND)) %>% ungroup() %>% select(JMENO, PRIJMENI, VEK)
 )
+
+residuals <- zarazeni %>% 
+  anti_join(ppl, by = c("JMENO", "PRIJMENI", "VEK")) %>%
+  rename(PRIJMENI_new = PRIJMENI)
   
 ppl %<>%
-  left_join(select(zarazeni, JMENO, PRIJMENI, VEK, since, until), by = join_by(JMENO, PRIJMENI, VEK)) %>%
+  left_join(zarazeni, by = join_by(JMENO, PRIJMENI, VEK)) %>%
+  left_join( # heuristika pro změněné příjmení
+    residuals, 
+    by = c("JMENO", "VEK"),
+    suffix = c("", "2") # duplicates since + until, see coalesce() below
+  ) %>%
   group_by(VOLKRAJ, NAZ_STR) %>%
   filter(any(!is.na(PORADIMAND))) %>%
   mutate(
+    since = coalesce(since, since2),
+    until = coalesce(until, until2),
     state = case_when(
       PLATNOST == "N" ~ 0, # vyškrtnutý
       !is.na(PORADIMAND) & is.na(until) ~ 11, # poslanec od začátku
@@ -56,10 +69,15 @@ ppl %<>%
       .default = 2 # náhradník
     ),
     weight = sum(!is.na(PORADIMAND))
-  )
+  ) %>%
+  select(-ends_with("2"))
 
 if (nrow(filter(ppl, state == 11)) + nrow(filter(ppl, state == 12)) != 200) {
   stop("Poslanců dle 'state' není 200!")
+}
+
+if (nrow(filter(ppl, state == 21)) != 76) {
+  stop(paste0("Prvních náhradníků dle 'state' je ", nrow(filter(ppl, state == 21)), "!"))
 }
 
 saveRDS(ppl, here::here("psp/data/candidates.rds"))
