@@ -26,8 +26,9 @@ candidates <- readRDS(here::here("psp/data/candidates.rds")) |>
 
 newest <- candidates$since |> max(na.rm = TRUE)
 ```
+Mandát poslance zaniká z důvodů uvedených v [§ 6 JŘPS](https://app.beck-online.cz/bo/chapterview-document.seam?documentId=onrf6mjzhe2v6ojqfzygmnrnga). Náhradník nabývá mandát poslance, za nějž nastupuje, okamžikem zániku mandátu tohoto poslance (§ 2 JŘPS). Náhradníci nastupují z téže kandidátní listina v pořadí podle výsledků voleb. Postavení náhradníka se lze vzdát; zánik postavení náhradníka oznámí předseda Poslanecké sněmovny nejpozději po zahájení nejbližší schůze Sněmovny ([§ 54](https://app.beck-online.cz/bo/chapterview-document.seam?documentId=onrf6mjzhe2v6mrug4xhazrvgqwtgna) odst. 6 a 7 VolPar).
 
-**Poslední změna ve složení PSP:** `r cz_date(newest)`
+**Poslední změna ve složení:** `r cz_date(newest)`
 ```{r until}
 pull_name <- function(df, side, icon, date) {
   df <- df |>

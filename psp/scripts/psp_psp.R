@@ -17,7 +17,7 @@ read_psp <- function (file) {
   return(df)
 }
 
-poslanec <- read_psp("psp/data/poslanci/poslanec.unl") # parsing issue refers to phone no.
+poslanec <- read_psp("psp/data/poslanci/poslanec.unl") # parsing issue refers to a phone number
 colnames(poslanec) <- c('mp_id', 'id', 'region_id', 'list_id', 'org_id', 'web', 'street', 'municipality', 'postcode', 'email','phone', 'fax', 'psp_phone', 'facebook', 'photo')
 
 osoby <- read_psp("psp/data/poslanci/osoby.unl")
@@ -76,7 +76,7 @@ if (nrow(filter(ppl, state == 11)) + nrow(filter(ppl, state == 12)) != 200) {
   stop("Poslanců dle 'state' není 200!")
 }
 
-if (nrow(filter(ppl, state == 21)) != 76) {
+if (nrow(filter(ppl, state == 21)) != 77) {
   stop(paste0("Prvních náhradníků dle 'state' je ", nrow(filter(ppl, state == 21)), "!"))
 }
 
