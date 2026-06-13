@@ -229,6 +229,7 @@
 1104||6|ANO2011|ANO2011|ANO2011|26.10.2013||||
 131|84|4|LPS|Podvıbor pro aplikaci Listiny základních práv a svobod|Subcommittee on Charter of Fundamental Human Rights and Freedoms Application|01.10.1998|20.06.2002||0|
 678|613|4|PFHUS|Podvıbor pro finanèní hospodaøení územních samospráv a pro vyuívání fondù Evropské unie|Subcommittee on the Financial Management of Regional Governments and for the use of European Union Funding|28.11.2002|15.06.2006||0|
+1926|1786|13|UZ|Uzbekistán||28.04.2026||1000|0|
 729||78|PSNM|Pracovní skupina pro øešení problematiky nepotøebného majetku a ekologické likvidace nepotøebné munice Ministerstva obrany ÈR|Working Group for resolving the problem of unneeded property and ecological disposal of unneeded munitions of the Ministry of Defense of the Czech Republic|02.07.2003|||0|
 132|91|4|MEL|Podvıbor pro mediální legislativu|Subcommittee for Media Legislation|04.11.1998|20.06.2002||0|
 134||7|OBS|Stálá delegace Parlamentu do Parlamentního shromádìní Organizace pro bezpeènost a spolupráci v Evropì|Permanent Delegation to the Parliamentary Assembly of the OSCE|04.07.1996|19.06.1998||0|
@@ -411,6 +412,8 @@
 292||24|NSSS|Spoleèné schùze Poslanecké snìmovny a Senátu||15.11.1925|25.09.1929|10|0|
 293||24|NSPS|Poslanecká snìmovna|Chamber of Deputies|15.11.1925|25.09.1929|1|0|
 294||24|NSSS|Spoleèné schùze Poslanecké snìmovny a Senátu||25.04.1920|14.11.1925|10|0|
+1925|1786|13|EG|Egypt||13.04.2026||1000|0|
+1927|1786|13|TJ|Tádikistán||29.04.2026||1000|0|
 295||24|NSPS|Poslanecká snìmovna|Chamber of Deputies|25.04.1920|14.11.1925|1|0|
 296||27|NSPS|Revoluèní Národní shromádìní|National Assembly|14.11.1918|15.04.1920||0|
 297||28|SKCS|Snìm království Èeského||01.01.1908|31.12.1911||0|
@@ -838,6 +841,7 @@
 878|803|13|PYEA|Euroasie|EUROASIA|01.03.2007|03.06.2010||0|
 879|803|13|PFR|Francie|France|16.03.2007|03.06.2010||0|
 880|803|13|PIN|Íránská islámská republika|Islamic Republic of Iran|01.03.2007|03.06.2010||0|
+1887|1762|4|PRPCP|Podvıbor pro rodinné právo a civilní proces||10.06.2026||0|0|
 881|803|13|PIR|Irsko|Ireland|14.03.2007|03.06.2010||0|
 882|803|13|PIT|Itálie|Italy|01.03.2007|03.06.2010||0|
 883|803|13|PIL|Izrael|Israel|20.02.2007|03.06.2010||0|
@@ -1410,8 +1414,7 @@
 1530|1315|4|PRT|Podvıbor pro regiony v transformaci|Subcommittee on Regions in Transition|10.12.2020|20.10.2021|1000|0|
 1821|1757|4|PKHVS|Podvıbor pro kontrolu hospodaøení veøejného sektoru|Subcommittee on Public Sector Audit|21.01.2026||0|0|
 1839|1766|4|PCR|Podvıbor pro cestovní ruch|Subcommittee on Tourism|22.01.2026||0|0|
-1836|1769|4|PRS|Podvıbor pro rozvojovou spolupráci|Subcommittee on Development and Cooperation|22.01.2026||0|0|
-1837|1769|4|PLPZ|Podvıbor pro lidská práva v zahranièí|Sucommittee on Human Rights Abroad|22.01.2026||0|0|
+1836|1769|4|PRS|Podvıbor pro rozvojovou spolupráci|Subcommittee on Development and Cooperation|22.01.2026|01.04.2026|0|0|
 1841|1766|4|PRTHSOÚ|Podvıbor pro regiony v transformaci a hospodáøsky a sociálnì ohroená území|Subcommittee on Regions in Transition and Economically and Socially Disadvantaged Areas|22.01.2026||0|0|
 1792|1770|4|PLH|Podvıbor pro lesní hospodáøství|Subcommittee on Forestry Management|02.12.2025||0|0|
 1843|1771|4|PPÈRHZSOPSBA|Podvıbor pro Policii Èeské republiky, Hasièskı záchrannı sbor Èeské republiky, obecní policii a soukromé bezpeènostní agentury|Subcommittee on the Police of the Czech Republic, Fire Rescue Service of the Czech Republic, Municipal Police and Private Security Agencies|22.01.2026||0|0|
@@ -1724,6 +1727,7 @@
 1737|1574|13|AR|Argentinská republika|Argentine Republic|20.06.2024|08.10.2025||0|
 1738|173|2|VKFF|Vyšetøovací komise ke støelbì na Filozofické fakultì Univerzity Karlovy dne 21. 12. 2023||26.06.2024|08.10.2025||0|
 1920|1786|13|TR|Turecko||17.03.2026||1000|0|
+1921|1786|13|IRQ|Irák||25.03.2026||1000|0|
 1751|174|1|ODS|Poslaneckı klub ODS|Political group Civic Democratic Party|08.10.2025||2||
 1748|174|1|KDU-ÈSL|Poslaneckı klub KDU-ÈSL|Political group Christian and Democratic Union - Czechoslovak People's Party|07.10.2025||5||
 1753|174|116|VK-X|VK (extra)||01.01.1993|08.10.2025||0|
@@ -1739,6 +1743,7 @@
 1760|174|3|VEZ|Vıbor pro evropské záleitosti|Committee on European Affairs|05.11.2025||0|0|
 1763|174|3|VO|Vıbor pro obranu|Committee on Defence|05.11.2025||0|0|
 1764|174|3|VSP|Vıbor pro sociální politiku|Committee on Social Policy|05.11.2025||0|0|
+1923|1786|13|SA|Saudská Arábie||25.03.2026||1000|0|
 1899|1786|13|SVN|Slovinsko|Slovenia|02.02.2026||1000|0|
 1768|174|3|VP|Vıbor pro ivotní prostøedí|Committee on Environment|05.11.2025||0|0|
 1769|174|3|ZAV|Zahranièní vıbor|Committee on Foreign Affairs|05.11.2025||0|0|
@@ -1748,8 +1753,11 @@
 1781|174|2|SKNBÚ|Stálá komise pro kontrolu èinnosti Národního bezpeènostního úøadu|Permanent Commission on Oversight over the work of the National Security Office|11.11.2025||0|0|
 1778|174|2|SKKPO|Stálá komise pro kontrolu pouití odposlechu a záznamu telekomunikaèního provozu, pouití sledování osob a vìcí a rušení provozu elektronickıch komunikací|Permanent Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication|11.11.2025||0|0|
 1775|174|2|SKÚPP|Stálá komise pro Ústavu Èeské republiky a parlamentní procedury|Permanent Commission on the Constitution of the Czech Republic and Parliamentary Procedures|11.11.2025||0|0|
+1922|174|2|VKDOZIMETR|Vyšetøovací komise k prošetøení okolností, systémovıch souvislostí a institucionálního fungování Dopravního podniku hlavního mìsta Prahy, akciová spoleènost, Krajské správy a údrby silnic Støedoèeského kraje, pøíspìvková organizace a Všeobecné zdravotní pojišovny ve vìci podezøení z korupèního jednání (tzv. &bdquo;kauza Dozimetr&ldquo;)||25.03.2026||0|0|
+1837|1769|4|PLPZ|Podvıbor pro lidská práva v zahranièí|Sucommittee on Human Rights Abroad|22.01.2026|01.04.2026|0|0|
 1783|174|2|SKFAÚ|Stálá komise pro kontrolu èinnosti Finanèního analytického úøadu|Permanent Commission on Activities of the Financial Analytical Office|11.11.2025||0|0|
 1901|1786|13|ARE|Spojené arabské emiráty|United Arab Emirates|02.02.2026||1000|0|
+1924|1769|4|PRSLPZ|Podvıbor pro rozvojovou spolupráci a lidská práva v zahranièí||01.04.2026||0|0|
 1787|174|7|SDNATO|Stálá delegace Parlamentu do Parlamentního shromádìní NATO|Permanent Delegation to the NATO Parliamentary Assembly|14.11.2025||0|1|
 1788|174|7|SDOBSE|Stálá delegace Parlamentu do Parlamentního shromádìní Organizace pro bezpeènost a spolupráci v Evropì|Permanent Delegation to the Parliamentary Assembly of the OSCE|14.11.2025||0|1|
 1772|174|3|RV|Rozpoètovı vıbor|Committee on the Budget|05.11.2025||0|0|

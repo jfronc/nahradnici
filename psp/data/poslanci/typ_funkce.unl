@@ -114,11 +114,10 @@
 58|5|Ministr zdravotnictví|Minister of Health|115||
 120|82|Guvernér||21||
 70|18|Prezident|President|1||
-40|15|Veøejný ochránce práv||101||
 101|15|Zástupce finanèního arbitra||112||
-41|15|Zástupce veøejného ochránce práv||102||
 16|11|Místopøedseda|Vicepresident|2|2|
 156|42|Pøedseda||1|1|
+41|15|Zástupce veøejného ochránce práv||102|2|
 18|11|Pøedseda|Speaker|1|1|
 138|15|Èlen z kandidátù Poslanecké snìmovny||511||
 139|15|Èlen z kandidátù Senátu||512||
@@ -140,7 +139,9 @@
 159|15|Èlen volený Radou ÚSTR||1005||
 160|45|Èlen volený PS||21||
 161|5|Ministr pro sport, prevenci a zdraví||187||
-163|15|Ochránce práv dìtí||103||
+164|15|Zástupce veøejného ochránce práv a ochránce práv dìtí||120|2|
+40|15|Veøejný ochránce práv||101|1|
+163|15|Ochránce práv dìtí||103|1|
 147|119|Místopøedseda||50||
 148|119|Èlen volený PS||101||
 149|119|Èlen volený Senátem||111||

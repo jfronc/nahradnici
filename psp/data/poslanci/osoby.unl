@@ -272,7 +272,7 @@
 272|Ing.|Pilip|Ivan||04.08.1963|M|08.12.1998||
 273|Ing.|Plachý|Jaroslav||04.03.1952|M|06.12.1999||
 274|PhDr.|Plechatá|Ivana||09.08.1965|Ž|||
-275|Mgr.|Pleva|Petr||13.06.1959|M|01.03.2000||
+275|Mgr.|Pleva|Petr||13.06.1959|M|01.03.2000|31.03.2026|
 276||Ruml|Jan||05.03.1953|M|||
 277|Ing.|Sehoø|Karel||19.07.1951|M|08.12.1998||
 278|Ing.|Švrèek|Zdenìk||18.03.1956|M|08.12.1998||
@@ -310,7 +310,7 @@
 310|MUDr.|Maštálka|Jiøí||03.01.1956|M|08.12.1998||
 311|PhDr.|Ransdorf|Miloslav|CSc.|15.02.1953|M|08.12.1998|22.01.2016|
 312|JUDr.|Bebarová Rujbrová|Zuzka||13.01.1951|Ž|08.12.1998||
-313|Doc.PhDr.|Svobodová|Alena|CSc.|04.01.1948|Ž|08.12.1998||
+313|Doc. PhDr.|Svobodová|Alena|CSc.|04.01.1948|Ž|08.12.1998||
 314||Šimùnek|Petr||17.02.1965|M|||
 315|RSDr.|Škorpilová|Hana||05.11.1940|Ž|||
 316|Ing.genpor|Vacek|Miroslav||29.08.1935|M||31.12.2022|
@@ -5437,7 +5437,7 @@
 5468|Ing.|Kafka|David||11.06.1948|M|||
 5469|Ing.|Kalábková|Gabriela||24.04.1976|Ž|||
 5470||Klein|Jaroslav||25.03.1954|M|||
-5471|Ing.|Korytáø|Karel||09.10.1949|M|||
+5471|Ing.|Korytáø|Karel||09.10.1949|M||17.04.2026|
 5472|Ing.|Krátký|Jiøí||14.02.1945|M|||
 5473|Ing.|Krupka|Jaroslav||08.09.1957|M|||
 5474|Ing.|Kufa|Rudolf||02.08.1951|M|||
@@ -5593,7 +5593,7 @@
 5632|Ing.|Šenkýø|Jiøí||01.01.1900|M|||
 5634|MVDr.|Heøman|Pavel||01.01.1900|M|||
 5635|MUDr.|Špaèek|Milan||01.01.1900|M|||
-5636|RNDr.|Svobodová|Vlasta||01.01.1900|Z|||
+5636|RNDr.|Svobodová|Vlasta||21.02.1937|Z||23.03.2026|
 5637|Mgr.|Pavlov|Jiøí||01.01.1900|M|||
 5638|RNDr.|Doèekal|Oldøich||01.01.1900|M|||
 5639|RNDr.|Zahradníèek|Ludìk||01.01.1900|M|||
@@ -5603,7 +5603,7 @@
 5644|RNDr.|Seitlová|Jitka||01.01.1900|Z|||
 5645|Ing.|Babka|Zdenìk||01.01.1900|M|||
 5646|Ing.|Reitinger|Václav||01.01.1900|M|||
-5647|Ing.|Korytáø|Karel||01.01.1900|M|||
+5647|Ing.|Korytáø|Karel||01.01.1900|M||17.04.2026|
 5648|Mgr.|Koneèný|František||01.01.1900|M|||
 5649||Voráèek|Jan||01.01.1900|M|||
 5650||Vašínková|Vìra||01.01.1900|Z|||
@@ -6588,7 +6588,7 @@
 6650|Mgr.|Pokorný|Marek||01.01.1900|M|||
 6651|Mgr.|Matocha|Pavel||01.01.1900|M|||
 6652|Ing.|Lipovská|Hana||01.01.1900|M|||
-6653|Bc.|Veselý|Lubomír||01.01.1900|M|||
+6653|Bc.|Veselý|Luboš Xaver||25.12.1968|M|||
 6654||Kopecký|Èestmír||01.01.1900|M|||
 6655|Ing.|Šmucr|Michal||18.08.1963|M|||
 6656|Ing.|Šmucr|Michal||18.08.1963|M|||
@@ -7026,3 +7026,18 @@
 7094|Ing.|Haas|Jakub||01.01.1900|M|||
 7095|MUDr.|Zachar|Patrik||01.01.1900|M|||
 7096|Mgr.|Žatecká|Romana||01.01.1900|Z|||
+7097|Bc.|Bílský|Slávek||01.01.1900|M|||
+7098|Mgr.|Svedíková Vávrová|Petra||01.01.1900|M|||
+7099|Mgr.|Beneš|Martin||01.01.1900|M|||
+7100|doc.|Kubátová|Hana|M.A., Ph.D.|01.01.1900|Z|||
+7101|MUDr.|Zeman|Marek|MBA|01.01.1900|M|||
+7102|Ing. Bc|Vogl|Jan|Ph.D.|01.01.1900|M|||
+7103|Mgr.|Hanzal|Jaromír||01.01.1900|M|||
+7104|Mgr.|Janeèek|Viktor||01.01.1900|M|||
+7105|Mgr. et Mgr.|Adamèíková|Jitka|Ph.D.|01.01.1900|M|||
+7106|Mgr.|Forman|Libor||16.02.1966|M|||
+7107|JUDr.|Suchánek|Radovan|Ph.D.|17.09.1972|M|||
+7108|Bc.|Kotlík|Jiøí||01.01.1900|M|||
+7109|Mgr.|Plíšková|Lucie||01.01.1900|Z|||
+7110|Ing.|Brozda|Petr||01.01.1900|M|||
+7111|Mgr.|Chalupský|Martin||01.01.1900|M|||
