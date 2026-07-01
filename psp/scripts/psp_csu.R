@@ -33,6 +33,7 @@ partylist <- function(party, kraj, doc) {
       NSTRANA = as.integer(NSTRANA),
       POCHLASU = as.integer(POCHLASU),
       POCPROC = as.double(POCPROC),
+      PORCISLO = as.integer(PORCISLO),
       PORADINAHR = as.integer(PORADINAHR) %>% na_if(0),
       PORADIMAND = as.integer(PORADIMAND) %>% na_if(0),
       KSTRANA = party,

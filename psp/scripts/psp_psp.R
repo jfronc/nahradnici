@@ -38,28 +38,34 @@ zarazeni %<>% filter(org_id == 174) %>% # PSP10
 
 ppl <- readRDS(here::here("psp/data/ppl.rds"))
 
-# MPs who don't match exactly
+# initial MPs who don't match exactly
 symdiff(
   filter(zarazeni, since == "2025-10-04") %>% select(JMENO, PRIJMENI, VEK),
   filter(ppl, !is.na(PORADIMAND)) %>% ungroup() %>% select(JMENO, PRIJMENI, VEK)
 )
 
-residuals <- zarazeni %>% 
-  anti_join(ppl, by = c("JMENO", "PRIJMENI", "VEK")) %>%
-  rename(PRIJMENI_new = PRIJMENI)
-  
+filter(zarazeni, is.na(VEK))
+
+
+residuals <- anti_join(zarazeni, ppl, by = join_by(JMENO, PRIJMENI, VEK))
+
 ppl %<>%
   left_join(zarazeni, by = join_by(JMENO, PRIJMENI, VEK)) %>%
   left_join( # heuristika pro změněné příjmení
-    residuals, 
+    filter(residuals, !is.na(VEK)), 
     by = c("JMENO", "VEK"),
-    suffix = c("", "2") # duplicates since + until, see coalesce() below
+    suffix = c("", "_new") # duplicates since + until, see coalesce() below
+  ) %>%
+  left_join( # heuristika pro chybějící věk
+    filter(residuals, is.na(VEK)), 
+    by = c("JMENO", "PRIJMENI"),
+    suffix = c("", "_age") # duplicates since + until, see coalesce() below
   ) %>%
   group_by(VOLKRAJ, NAZ_STR) %>%
   filter(any(!is.na(PORADIMAND))) %>%
   mutate(
-    since = coalesce(since, since2),
-    until = coalesce(until, until2),
+    since = coalesce(since, since_new, since_age),
+    until = coalesce(until, until_new, until_age),
     state = case_when(
       PLATNOST == "N" ~ 0, # vyškrtnutý
       !is.na(PORADIMAND) & is.na(until) ~ 11, # poslanec od začátku
@@ -70,7 +76,7 @@ ppl %<>%
     ),
     weight = sum(!is.na(PORADIMAND))
   ) %>%
-  select(-ends_with("2"))
+  select(!(since_new:until_age))
 
 if (nrow(filter(ppl, state == 11)) + nrow(filter(ppl, state == 12)) != 200) {
   stop("Poslanců dle 'state' není 200!")
@@ -78,6 +84,10 @@ if (nrow(filter(ppl, state == 11)) + nrow(filter(ppl, state == 12)) != 200) {
 
 if (nrow(filter(ppl, state == 21)) != 77) {
   stop(paste0("Prvních náhradníků dle 'state' je ", nrow(filter(ppl, state == 21)), "!"))
+}
+
+if (nrow(filter(ppl, is.na(VEK))) > 0) {
+  stop("Chybí věk!")
 }
 
 saveRDS(ppl, here::here("psp/data/candidates.rds"))
